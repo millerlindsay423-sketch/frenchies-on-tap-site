@@ -99,12 +99,14 @@ function breweryPage(b) {
 </nav>
 
 <div class="brewery-header">
-  <div class="wrap">
-    <a class="back-link" href="../brewery-directory.html">← Back to the Directory</a>
-    <div class="loc">${b.location}</div>
-    <h1>${b.name}</h1>
-    ${pickBadge}
-    <div class="paws">${paws(b.rating)} <span style="color:var(--gray);font-size:0.85rem;font-weight:600;">(${b.rating} / 5)</span></div>
+  <div class="wrap brewery-header-inner">
+    <div>
+      <a class="back-link" href="../brewery-directory.html">← Back to the Directory</a>
+      <div class="loc">${b.location}</div>
+      <h1>${b.name}</h1>
+      ${pickBadge}
+      <div class="paws">${paws(b.rating)} <span style="color:var(--gray);font-size:0.85rem;font-weight:600;">(${b.rating} / 5)</span></div>
+    </div>${b.logo ? `\n    <img class="brewery-logo" src="../images/breweries/${b.logo}" alt="${escapeAttr(b.name)} logo">` : ''}
   </div>
 </div>
 
