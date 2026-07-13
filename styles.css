@@ -114,8 +114,8 @@ nav{
   font-size:0.88rem;margin-top:10px;text-align:center;
 }
 .hero-photo .badge-wrap{
-  position:absolute;top:-30px;left:-30px;width:130px;height:130px;
-  transform:rotate(-8deg);
+  position:absolute;top:-14px;left:-6px;width:104px;height:104px;
+  transform:rotate(-8deg);z-index:3;
 }
 .hero-photo .badge-wrap::before{
   content:"";position:absolute;inset:0;background:var(--gold-2);
