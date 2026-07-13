@@ -214,7 +214,7 @@ section{padding:72px 0;}
   background:rgba(255,255,255,0.06);border:1px solid rgba(212,160,23,0.4);
   border-radius:10px;padding:18px 22px;margin:20px 0;
 }
-.mission .callout .amt{font-family:'Playfair Display',serif;font-size:1.6rem;color:var(--gold-2);font-weight:900;}
+.callout .amt{font-family:'Playfair Display',serif;font-size:1.6rem;color:var(--gold-2);font-weight:900;}
 .mission-photo-block{
   background:rgba(255,255,255,0.04);border:1px dashed rgba(255,255,255,0.25);
   border-radius:14px;height:340px;display:flex;align-items:center;justify-content:center;
@@ -256,7 +256,7 @@ section{padding:72px 0;}
 .brewery-header .loc{font-size:0.78rem;text-transform:uppercase;letter-spacing:1.5px;color:var(--gray);font-weight:700;}
 .brewery-header h1{font-size:2.2rem;color:var(--navy);margin:8px 0 12px;}
 .brewery-header .paws{font-size:1.3rem;}
-.brewery-body{padding:48px 0;display:grid;grid-template-columns:1.3fr 0.7fr;gap:40px;}
+.brewery-body{padding:48px 0;display:grid;grid-template-columns:1.3fr 0.7fr;gap:40px;align-items:start;}
 .brewery-body .quip{
   font-family:'Playfair Display',serif;font-style:italic;color:var(--navy);
   font-size:1.15rem;border-left:3px solid var(--gold);padding-left:16px;margin-bottom:24px;
