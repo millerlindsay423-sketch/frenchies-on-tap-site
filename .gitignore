@@ -9,3 +9,9 @@ Newsletter-Subscribers-Export.csv
 Palmer-Homepage-Redesign-Mockup.html
 Palmer-Website-Requirements.md
 images/logo/Logo options.jpeg
+
+# Staging area for new photos/logos — I sort these into images/ and remove
+# them from here once they're wired into a page, so this folder shouldn't
+# accumulate committed files.
+incoming/*
+!incoming/README.md

@@ -12,6 +12,8 @@ node scripts/build-breweries.js
 ```
 This regenerates every page in `breweries/` plus the Brewery Directory from that one data file — much safer than hand-editing 37 nearly-identical pages.
 
+To add a new photo or logo: drop it in `incoming/`, tell Claude Code what it is (which brewery, which dog, etc.), and it'll take care of resizing, renaming, and wiring it into the right page.
+
 See `TODO.md` for what's still unfinished (photos, final logo, donate link, merch prices).
 
 ## Structure
@@ -22,7 +24,8 @@ breweries/{slug}.html      — one page per brewery, generated (see scripts/buil
 styles.css                 — the whole design system, one file
 images/                    — logo, dog photos, brewery photos, gallery, merch
 images/dogs/               — full pool of converted photos (~45); only a few are wired into pages so far, the rest are there for future picks
-data/breweries.json        — source of truth for all 37 brewery pages
+data/breweries.json        — source of truth for all 35 brewery pages
+incoming/                  — drop zone for new photos/logos before they're sorted
 ```
 
 ## Deploying
