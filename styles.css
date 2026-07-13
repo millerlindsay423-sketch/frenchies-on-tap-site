@@ -1,0 +1,323 @@
+/* ==========================================================================
+   Frenchies on Tap — sitewide stylesheet
+   One file for the whole site. Sections below are ordered roughly in the
+   order things appear on a page: tokens → layout basics → nav → hero →
+   shared components (cards, buttons, sections) → page-specific bits →
+   footer → responsive.
+   ========================================================================== */
+
+:root{
+  --navy:#0a1628;
+  --navy-2:#132743;
+  --red:#b22234;
+  --red-2:#8c1b29;
+  --gold:#d4a017;
+  --gold-2:#f0c14b;
+  --cream:#f7f4ec;
+  --charcoal:#1c1c1c;
+  --gray:#5f6672;
+}
+
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Work Sans',sans-serif;background:var(--cream);color:var(--charcoal);line-height:1.5;}
+h1,h2,h3,.serif{font-family:'Playfair Display',serif;}
+a{text-decoration:none;color:inherit;}
+img{display:block;max-width:100%;}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px;}
+
+/* TOP UTILITY BAR */
+.util-bar{
+  background:var(--navy);color:rgba(255,255,255,0.75);
+  font-size:0.72rem;letter-spacing:0.5px;text-transform:uppercase;
+  text-align:center;padding:7px 12px;font-weight:600;
+}
+.util-bar strong{color:var(--gold-2);}
+
+/* NAV */
+nav{
+  background:#fff;border-bottom:1px solid #e9e4d8;
+  position:sticky;top:0;z-index:50;
+}
+.nav-inner{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:12px 24px;max-width:1120px;margin:0 auto;
+}
+.nav-logo{display:flex;align-items:center;gap:10px;}
+.nav-logo img{height:62px;width:auto;}
+.nav-logo span{font-family:'Playfair Display',serif;font-weight:800;font-size:1.05rem;color:var(--navy);}
+.nav-links{display:flex;gap:28px;font-weight:600;font-size:0.88rem;color:var(--navy);}
+.nav-links a{position:relative;padding-bottom:3px;}
+.nav-links a:hover,.nav-links a.active{color:var(--red);}
+.nav-cta{
+  background:var(--red);color:#fff;padding:10px 20px;border-radius:6px;
+  font-weight:700;font-size:0.85rem;letter-spacing:0.3px;
+  box-shadow:0 2px 8px rgba(178,34,52,0.25);
+}
+.nav-cta:hover{background:var(--red-2);}
+
+/* HERO (Home) */
+.hero{
+  position:relative;overflow:hidden;
+  background:radial-gradient(ellipse at top left, #16305a 0%, var(--navy) 55%, #060d18 100%);
+  padding:64px 0 0;
+}
+.hero-stars{
+  position:absolute;inset:0;
+  background-image:radial-gradient(circle,rgba(255,255,255,0.10) 1.4px,transparent 1.4px);
+  background-size:26px 26px;
+  opacity:0.6;
+}
+.hero-inner{
+  position:relative;z-index:2;display:grid;grid-template-columns:1.1fr 0.9fr;
+  gap:40px;align-items:center;max-width:1120px;margin:0 auto;padding:20px 24px 0;
+}
+.hero-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  background:rgba(212,160,23,0.15);border:1px solid rgba(212,160,23,0.5);
+  color:var(--gold-2);font-size:0.72rem;font-weight:700;letter-spacing:1.5px;
+  text-transform:uppercase;padding:6px 14px;border-radius:20px;margin-bottom:20px;
+}
+.hero h1{
+  color:#fff;font-size:2.9rem;line-height:1.08;font-weight:900;margin-bottom:18px;
+}
+.hero h1 em{color:var(--gold-2);font-style:normal;}
+.hero p.sub{
+  color:rgba(255,255,255,0.8);font-size:1.08rem;max-width:480px;margin-bottom:30px;
+}
+.hero-ctas{display:flex;gap:14px;margin-bottom:44px;flex-wrap:wrap;}
+.btn-primary{
+  display:inline-block;background:var(--red);color:#fff;padding:14px 26px;border-radius:7px;
+  font-weight:800;font-size:0.92rem;letter-spacing:0.3px;
+  box-shadow:0 6px 18px rgba(178,34,52,0.35);
+}
+.btn-primary:hover{background:var(--red-2);}
+.btn-outline{
+  display:inline-block;border:2px solid rgba(255,255,255,0.55);color:#fff;padding:12px 24px;
+  border-radius:7px;font-weight:700;font-size:0.92rem;
+}
+.btn-outline:hover{border-color:var(--gold-2);color:var(--gold-2);}
+
+.hero-photo{
+  position:relative;display:flex;justify-content:center;align-items:flex-end;height:100%;
+}
+.hero-photo .card{
+  background:#fff;border-radius:16px;padding:18px 18px 22px;
+  box-shadow:0 20px 50px rgba(0,0,0,0.35);
+  transform:rotate(2deg);
+  max-width:300px;
+}
+.hero-photo img.dogpic{border-radius:10px;height:260px;width:100%;object-fit:cover;object-position:top;}
+.hero-photo .card p{
+  font-family:'Playfair Display',serif;font-style:italic;color:var(--navy);
+  font-size:0.95rem;margin-top:12px;text-align:center;
+}
+.hero-photo .badge-wrap{
+  position:absolute;top:-30px;left:-30px;width:130px;height:130px;
+  transform:rotate(-8deg);
+}
+.hero-photo .badge-wrap::before{
+  content:"";position:absolute;inset:0;background:var(--gold-2);
+  clip-path:polygon(50% 0%,61% 12%,75% 2%,80% 18%,95% 15%,92% 31%,100% 40%,90% 50%,100% 60%,92% 69%,95% 85%,80% 82%,75% 98%,61% 88%,50% 100%,39% 88%,25% 98%,20% 82%,5% 85%,8% 69%,0% 60%,10% 50%,0% 40%,8% 31%,5% 15%,20% 18%,25% 2%,39% 12%);
+  box-shadow:0 8px 18px rgba(0,0,0,0.35);
+}
+.hero-photo .badge{
+  position:absolute;inset:16px;background:var(--gold);color:var(--navy);
+  font-weight:800;font-size:0.95rem;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  text-align:center;line-height:1.15;
+  box-shadow:inset 0 0 0 2px rgba(10,22,40,0.15);
+}
+
+/* Simple page hero (non-Home pages) */
+.page-hero{
+  background:radial-gradient(ellipse at top left, #16305a 0%, var(--navy) 55%, #060d18 100%);
+  color:#fff;padding:56px 0;position:relative;overflow:hidden;
+}
+.page-hero .kicker{color:var(--gold-2);font-weight:800;font-size:0.78rem;letter-spacing:2px;text-transform:uppercase;margin-bottom:10px;}
+.page-hero h1{color:#fff;font-size:2.4rem;font-weight:900;}
+.page-hero p{color:rgba(255,255,255,0.8);margin-top:12px;max-width:560px;font-size:1.02rem;}
+
+/* STAT STRIP */
+.stat-strip{
+  background:#fff;border-top:1px solid #eee2c8;border-bottom:3px solid var(--gold);
+  margin-top:44px;
+}
+.stat-inner{
+  max-width:1120px;margin:0 auto;padding:22px 24px;
+  display:flex;justify-content:space-between;flex-wrap:wrap;gap:20px;
+}
+.stat{text-align:center;flex:1;min-width:140px;}
+.stat .num{font-family:'Playfair Display',serif;font-weight:900;font-size:1.7rem;color:var(--navy);}
+.stat .num.red{color:var(--red);}
+.stat .lbl{font-size:0.72rem;text-transform:uppercase;letter-spacing:0.8px;color:var(--gray);font-weight:700;margin-top:2px;}
+.stat-div{width:1px;background:#e9e4d8;margin:4px 0;}
+
+section{padding:72px 0;}
+.section-head{text-align:center;max-width:640px;margin:0 auto 44px;}
+.section-head .kicker{
+  color:var(--red);font-weight:800;font-size:0.78rem;letter-spacing:2px;
+  text-transform:uppercase;margin-bottom:10px;
+}
+.section-head h2{font-size:2.1rem;color:var(--navy);font-weight:900;}
+.section-head p{color:var(--gray);margin-top:12px;font-size:1rem;}
+
+/* MEET THE FRENCHIES */
+.chaos-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;}
+.dog-card{
+  background:#fff;border-radius:14px;overflow:hidden;
+  box-shadow:0 8px 24px rgba(10,22,40,0.08);border:1px solid #eee2c8;
+}
+.dog-card .photo{aspect-ratio:4/5;overflow:hidden;background:#e9e4d8;}
+.dog-card .photo img{width:100%;height:100%;object-fit:cover;}
+.dog-card .body{padding:24px 26px 28px;}
+.dog-card h3{font-size:1.3rem;color:var(--navy);margin-bottom:2px;}
+.dog-card .role{color:var(--red);font-weight:700;font-size:0.78rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:12px;display:block;}
+.dog-card p{font-size:0.94rem;color:#3a3a3a;margin-bottom:12px;}
+.dog-card .quote{
+  font-family:'Playfair Display',serif;font-style:italic;color:var(--navy);
+  border-left:3px solid var(--gold);padding-left:12px;font-size:0.95rem;
+}
+
+/* BREWERY CARDS (used on Home, Directory) */
+.brew-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;}
+.brew-grid.cols-3{grid-template-columns:repeat(3,1fr);}
+.brew-card{
+  background:#fff;border-radius:12px;padding:20px;border:1px solid #eee2c8;
+  box-shadow:0 4px 14px rgba(10,22,40,0.06);
+  position:relative;display:block;
+}
+.brew-card.pick{border:1px solid var(--gold);}
+.picks-badge{
+  position:absolute;top:-11px;left:16px;background:var(--gold);color:var(--navy);
+  font-size:0.62rem;font-weight:800;letter-spacing:0.5px;text-transform:uppercase;
+  padding:4px 10px;border-radius:999px;box-shadow:0 2px 6px rgba(10,22,40,0.15);
+}
+.brew-card .loc{font-size:0.68rem;text-transform:uppercase;letter-spacing:1px;color:var(--gray);font-weight:700;}
+.brew-card h4{color:var(--navy);font-size:1.05rem;margin:6px 0 8px;}
+.paws{color:var(--gold);letter-spacing:2px;font-size:0.95rem;margin-bottom:10px;}
+.paws .half{opacity:0.4;}
+.brew-card p.quip{font-size:0.85rem;color:#444;font-style:italic;}
+.see-all{text-align:center;margin-top:32px;}
+.see-all a{color:var(--red);font-weight:700;font-size:0.92rem;}
+
+/* MISSION BAND */
+.mission{
+  background:linear-gradient(160deg,var(--navy) 0%,#0d1f3c 100%);
+  color:#fff;
+}
+.mission-inner{
+  display:grid;grid-template-columns:0.9fr 1.1fr;gap:48px;align-items:center;
+}
+.mission h2{color:#fff;font-size:2rem;margin-bottom:16px;}
+.mission p{color:rgba(255,255,255,0.82);margin-bottom:16px;font-size:0.98rem;}
+.mission .callout{
+  background:rgba(255,255,255,0.06);border:1px solid rgba(212,160,23,0.4);
+  border-radius:10px;padding:18px 22px;margin:20px 0;
+}
+.mission .callout .amt{font-family:'Playfair Display',serif;font-size:1.6rem;color:var(--gold-2);font-weight:900;}
+.mission-photo-block{
+  background:rgba(255,255,255,0.04);border:1px dashed rgba(255,255,255,0.25);
+  border-radius:14px;height:340px;display:flex;align-items:center;justify-content:center;
+  color:rgba(255,255,255,0.4);font-size:0.85rem;text-align:center;padding:20px;
+}
+.mission-photo-block img{width:100%;height:100%;object-fit:cover;border-radius:14px;}
+
+/* GALLERY */
+.gallery-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;}
+.gallery-grid .tile{
+  border-radius:10px;overflow:hidden;aspect-ratio:1/1;position:relative;
+  background:#e9e4d8;
+}
+.gallery-grid .tile img{width:100%;height:100%;object-fit:cover;}
+.gallery-grid .tile.ph{
+  display:flex;align-items:center;justify-content:center;color:#9a9384;
+  font-size:0.72rem;text-align:center;border:1px dashed #cfc7b0;padding:10px;
+}
+.gallery-cta{text-align:center;margin-top:28px;color:var(--gray);font-size:0.92rem;}
+.gallery-cta a{color:var(--red);font-weight:700;}
+
+/* BREWERY DIRECTORY */
+.state-group{margin-bottom:52px;}
+.state-group h2{
+  font-size:1.6rem;color:var(--navy);font-weight:900;margin-bottom:22px;
+  padding-bottom:10px;border-bottom:2px solid var(--gold);
+}
+
+/* INDIVIDUAL BREWERY PAGE */
+.brewery-header{background:#fff;border-bottom:1px solid #eee2c8;padding:40px 0;}
+.brewery-header .loc{font-size:0.78rem;text-transform:uppercase;letter-spacing:1.5px;color:var(--gray);font-weight:700;}
+.brewery-header h1{font-size:2.2rem;color:var(--navy);margin:8px 0 12px;}
+.brewery-header .paws{font-size:1.3rem;}
+.brewery-body{padding:48px 0;display:grid;grid-template-columns:1.3fr 0.7fr;gap:40px;}
+.brewery-body .quip{
+  font-family:'Playfair Display',serif;font-style:italic;color:var(--navy);
+  font-size:1.15rem;border-left:3px solid var(--gold);padding-left:16px;margin-bottom:24px;
+}
+.brewery-body .review p{margin-bottom:16px;font-size:0.98rem;color:#333;}
+.brewery-body .photo-block{
+  background:#e9e4d8;border:1px dashed #cfc7b0;border-radius:12px;
+  aspect-ratio:4/5;display:flex;align-items:center;justify-content:center;
+  color:#9a9384;font-size:0.8rem;text-align:center;padding:16px;
+}
+.back-link{display:inline-block;margin-bottom:20px;color:var(--red);font-weight:700;font-size:0.88rem;}
+
+/* MERCH */
+.merch-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
+.merch-card{background:#fff;border-radius:14px;overflow:hidden;border:1px solid #eee2c8;box-shadow:0 8px 24px rgba(10,22,40,0.08);}
+.merch-card .photo{aspect-ratio:1/1;background:#e9e4d8;overflow:hidden;display:flex;align-items:center;justify-content:center;}
+.merch-card .photo img{width:100%;height:100%;object-fit:contain;}
+.merch-card .body{padding:20px 22px 24px;}
+.merch-card h3{font-size:1.15rem;color:var(--navy);margin-bottom:4px;}
+.merch-card .price{color:var(--red);font-weight:800;font-size:0.95rem;margin-bottom:10px;}
+.merch-card p.desc{font-size:0.88rem;color:#444;margin-bottom:16px;}
+.btn-secondary{
+  display:inline-block;background:var(--navy);color:#fff;padding:10px 20px;border-radius:7px;
+  font-weight:700;font-size:0.85rem;
+}
+.btn-secondary:hover{background:var(--navy-2);}
+
+/* GENERIC CONTENT PAGES (About, Donate) */
+.prose{max-width:760px;margin:0 auto;}
+.prose h2{color:var(--navy);font-size:1.7rem;margin:36px 0 14px;}
+.prose h2:first-child{margin-top:0;}
+.prose p{margin-bottom:16px;font-size:1rem;color:#2c2c2c;}
+.prose .pull{
+  font-family:'Playfair Display',serif;font-style:italic;color:var(--navy);
+  font-size:1.2rem;border-left:3px solid var(--gold);padding-left:18px;margin:28px 0;
+}
+
+.todo-flag{
+  display:inline-block;background:#fffbe6;border:1.5px dashed var(--gold);border-radius:6px;
+  padding:2px 10px;font-size:0.7rem;color:#6b5300;font-weight:700;letter-spacing:0.3px;
+  text-transform:uppercase;vertical-align:middle;margin-left:8px;
+}
+
+/* FOOTER */
+footer{background:var(--charcoal);color:rgba(255,255,255,0.65);padding:48px 0 24px;}
+.foot-inner{display:flex;justify-content:space-between;flex-wrap:wrap;gap:30px;margin-bottom:30px;}
+.foot-brand{font-family:'Playfair Display',serif;color:#fff;font-weight:800;font-size:1.2rem;}
+.foot-col h5{color:#fff;font-size:0.78rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:12px;}
+.foot-col a{display:block;font-size:0.85rem;margin-bottom:8px;color:rgba(255,255,255,0.6);}
+.foot-col a:hover{color:var(--gold-2);}
+.foot-bottom{border-top:1px solid rgba(255,255,255,0.12);padding-top:18px;font-size:0.75rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;color:rgba(255,255,255,0.4);}
+
+/* RESPONSIVE */
+@media (max-width:860px){
+  .hero-inner{grid-template-columns:1fr;}
+  .hero-photo{margin-top:20px;}
+  .chaos-grid{grid-template-columns:1fr;}
+  .brew-grid{grid-template-columns:repeat(2,1fr);}
+  .brew-grid.cols-3{grid-template-columns:repeat(2,1fr);}
+  .mission-inner{grid-template-columns:1fr;}
+  .gallery-grid{grid-template-columns:repeat(2,1fr);}
+  .merch-grid{grid-template-columns:repeat(2,1fr);}
+  .brewery-body{grid-template-columns:1fr;}
+  .nav-links{display:none;}
+}
+@media (max-width:520px){
+  .brew-grid{grid-template-columns:1fr;}
+  .brew-grid.cols-3{grid-template-columns:1fr;}
+  .gallery-grid{grid-template-columns:repeat(2,1fr);}
+  .merch-grid{grid-template-columns:1fr;}
+  .hero h1{font-size:2.2rem;}
+}
