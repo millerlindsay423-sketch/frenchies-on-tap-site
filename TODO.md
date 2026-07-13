@@ -3,7 +3,8 @@
 Things the site was built with placeholders for. Ask Claude Code to help with any of these whenever you're ready — just say what you have (a link, a photo, a price) and it'll wire it in.
 
 ## Blocking a full launch
-- **Photos** — none are in the site yet (`images/dogs/`, `images/gallery/`, `images/breweries/` are all empty). Hero image, the two "Meet the Frenchies" dog cards, the Gallery page, and all 37 brewery pages currently show "photo pending" placeholder boxes instead of real pictures.
+- **Rosie's photo** — of the 45 photos you added, I could only confidently identify one dog by name (`palmer.jpg`, used on the Home page). The rest are almost all the same dog I'm assuming is also Palmer (same coat/markings), but I couldn't find one I was confident was Rosie, so her "Meet the Frenchies" card on the Home page is still a placeholder. Tell me which file(s) are Rosie and I'll drop her in. `images/dogs/IMG_0035.jpg` looks like it might be the two of them together, if that helps jog which one's which.
+- **Brewery-specific photos** — none of the 45 photos are matched to a specific brewery (no captions/metadata to go on), so all 37 individual brewery pages still show "photo pending." If you can tell me which photos go with which brewery, I can wire those in too — otherwise the general shots are now live on the Home page and Gallery.
 - **Final logo files from Mary** — `images/logo/primary.png` and `images/logo/secondary.png` are cropped from her *draft* options sheet. They still say "EST. 2019" on the ribbon; the confirmed correct text is "EST. 2023." Swap in Mary's final delivered files once you have them and this fixes itself.
 - **Classy donate page URL** — the Donate page CTA buttons currently point to `#`. Share the real Classy campaign link and it'll get wired into both spots on `donate.html`.
 - **GitHub + Netlify** — the site isn't live anywhere yet. See "Going live" below.

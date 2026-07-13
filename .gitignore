@@ -1,4 +1,8 @@
 .DS_Store
+*.heic
+*.heif
+*.HEIC
+*.HEIF
 
 # Reference/source material — not part of the deployed site
 Newsletter-Subscribers-Export.csv

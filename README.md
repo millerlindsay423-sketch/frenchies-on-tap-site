@@ -21,6 +21,7 @@ index.html, about.html, donate.html, gallery.html, merch.html, brewery-directory
 breweries/{slug}.html      — one page per brewery, generated (see scripts/build-breweries.js)
 styles.css                 — the whole design system, one file
 images/                    — logo, dog photos, brewery photos, gallery, merch
+images/dogs/               — full pool of converted photos (~45); only a few are wired into pages so far, the rest are there for future picks
 data/breweries.json        — source of truth for all 37 brewery pages
 ```
 
