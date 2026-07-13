@@ -99,7 +99,8 @@
       "lazy-guy-distillery-1.jpg",
       "lazy-guy-distillery-2.jpg",
       "lazy-guy-distillery-3.jpg"
-    ]
+    ],
+    "logo": "lazy-guy-distillery-logo.jpg"
   },
   {
     "slug": "mutation-brewing",
