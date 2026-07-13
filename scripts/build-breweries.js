@@ -61,6 +61,10 @@ function breweryPage(b) {
     ? b.review.split('\n\n').map((p) => `        <p>${p}</p>`).join('\n')
     : `        <p>Full review pending — check back soon, or ask Claude Code to pull it from the archived live-site copy.</p>`;
 
+  const photoBlock = (b.photos && b.photos.length)
+    ? `<div class="photo-stack">\n${b.photos.map((p) => `      <img src="../images/breweries/${p}" alt="${escapeAttr(b.name)}">`).join('\n')}\n    </div>`
+    : `<div class="photo-block">📷 Photo pending</div>`;
+
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -107,7 +111,7 @@ function breweryPage(b) {
     <p class="quip">"${b.quip}"</p>
 ${reviewParagraphs}
   </div>
-  <div class="photo-block">📷 Photo pending</div>
+  ${photoBlock}
 </div>
 
 <footer>
