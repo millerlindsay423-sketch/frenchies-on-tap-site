@@ -100,18 +100,18 @@ nav{
 .hero-photo{
   position:relative;display:flex;justify-content:center;align-items:flex-end;height:100%;
 }
-.hero-photo .polaroid-stack{position:relative;width:100%;max-width:440px;height:410px;}
+.hero-photo .polaroid-stack{position:relative;width:100%;max-width:462px;height:430px;}
 .hero-photo .card{
-  background:#fff;border-radius:16px;padding:16px 16px 20px;
+  background:#fff;border-radius:16px;padding:17px 17px 21px;
   box-shadow:0 20px 50px rgba(0,0,0,0.35);
-  position:absolute;width:220px;
+  position:absolute;width:235px;
 }
-.hero-photo .card-palmer{top:0;left:16px;z-index:2;transform:rotate(-4deg);}
-.hero-photo .card-rosie{top:95px;left:210px;z-index:1;transform:rotate(7deg);}
-.hero-photo img.dogpic{border-radius:10px;height:220px;width:100%;object-fit:cover;object-position:top;}
+.hero-photo .card-palmer{top:0;left:18px;z-index:2;transform:rotate(-4deg);}
+.hero-photo .card-rosie{top:92px;left:224px;z-index:1;transform:rotate(5deg);}
+.hero-photo img.dogpic{border-radius:10px;height:235px;width:100%;object-fit:cover;object-position:top;}
 .hero-photo .card p{
   font-family:'Playfair Display',serif;font-style:italic;color:var(--navy);
-  font-size:0.88rem;margin-top:10px;text-align:center;
+  font-size:0.9rem;margin-top:10px;text-align:center;
 }
 .hero-photo .badge-wrap{
   position:absolute;top:-28px;left:6px;width:100px;height:100px;
@@ -120,27 +120,27 @@ nav{
 /* Narrow-desktop tier — between the mobile breakpoint and ~1040px, the
    hero-photo column is too narrow for the default card size + offset;
    Rosie's card clips against the viewport edge. Shrink both cards here. */
-@media (min-width:861px) and (max-width:1039px){
-  .hero-photo .polaroid-stack{max-width:360px;height:340px;}
-  .hero-photo .card{width:180px;padding:13px 13px 17px;}
+@media (min-width:861px) and (max-width:1089px){
+  .hero-photo .polaroid-stack{max-width:384px;height:362px;}
+  .hero-photo .card{width:192px;padding:14px 14px 18px;}
   .hero-photo .card-palmer{left:8px;}
-  .hero-photo .card-rosie{top:80px;left:140px;}
-  .hero-photo img.dogpic{height:175px;}
-  .hero-photo .card p{font-size:0.8rem;}
+  .hero-photo .card-rosie{top:84px;left:150px;}
+  .hero-photo img.dogpic{height:186px;}
+  .hero-photo .card p{font-size:0.82rem;}
   .hero-photo .badge-wrap{top:-20px;left:0;width:84px;height:84px;}
   .hero-photo .badge{inset:8px;font-size:0.72rem;}
 }
 /* Bigger Polaroid treatment — only once the hero has enough width to spare
    (hero-inner hits its 1120px cap around here), otherwise Rosie's card
    clips against the viewport edge before the flex-centering can save it. */
-@media (min-width:1240px){
-  .hero-photo .polaroid-stack{max-width:520px;height:470px;}
-  .hero-photo .card{width:250px;padding:18px 18px 22px;}
-  .hero-photo .card-palmer{left:36px;}
-  .hero-photo .card-rosie{top:105px;left:250px;}
-  .hero-photo img.dogpic{height:250px;}
-  .hero-photo .card p{font-size:0.92rem;}
-  .hero-photo .badge-wrap{top:-38px;left:0;width:110px;height:110px;}
+@media (min-width:1260px){
+  .hero-photo .polaroid-stack{max-width:560px;height:500px;}
+  .hero-photo .card{width:270px;padding:19px 19px 23px;}
+  .hero-photo .card-palmer{left:40px;}
+  .hero-photo .card-rosie{top:110px;left:270px;}
+  .hero-photo img.dogpic{height:270px;}
+  .hero-photo .card p{font-size:0.95rem;}
+  .hero-photo .badge-wrap{top:-40px;left:2px;width:112px;height:112px;}
 }
 .hero-photo .badge-wrap::before{
   content:"";position:absolute;inset:0;background:var(--gold-2);
@@ -348,12 +348,12 @@ section{padding:72px 0;}
   text-transform:uppercase;vertical-align:middle;margin-left:8px;
 }
 
-/* Paw icon — the mark next to "Brew. Give. Serve." */
+/* Paw icon — the two-paw "walking trail" mark next to "Brew. Give. Serve." */
 .paw-icon{
-  display:inline-block;vertical-align:-0.2em;
-  width:1.15em;height:1.15em;
+  display:inline-block;vertical-align:-0.25em;
+  height:1.15em;width:auto;
   color:var(--red);
-  margin-right:5px;
+  margin-right:6px;
 }
 
 /* FOOTER */
