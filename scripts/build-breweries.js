@@ -63,7 +63,9 @@ function breweryPage(b) {
 
   const photoBlock = (b.photos && b.photos.length)
     ? `<div class="photo-stack">\n${b.photos.map((p) => `      <img src="../images/breweries/${p}" alt="${escapeAttr(b.name)}">`).join('\n')}\n    </div>`
-    : `<div class="photo-block">📷 Photo pending</div>`;
+    : b.noPhoto
+      ? ''
+      : `<div class="photo-block">📷 Photo pending</div>`;
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -106,12 +108,11 @@ function breweryPage(b) {
   </div>
 </div>
 
-<div class="wrap brewery-body">
+<div class="wrap brewery-body${b.noPhoto ? ' single' : ''}">
   <div class="review">
     <p class="quip">"${b.quip}"</p>
 ${reviewParagraphs}
-  </div>
-  ${photoBlock}
+  </div>${photoBlock ? `\n  ${photoBlock}` : ''}
 </div>
 
 <footer>
