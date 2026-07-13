@@ -256,6 +256,7 @@ section{padding:72px 0;}
 .brewery-header{background:#fff;border-bottom:1px solid #eee2c8;padding:40px 0;}
 .brewery-header-inner{display:flex;justify-content:space-between;align-items:flex-start;gap:28px;flex-wrap:wrap;}
 .brewery-header-inner .brewery-logo{max-width:130px;border-radius:10px;box-shadow:0 4px 14px rgba(10,22,40,0.1);}
+.brewery-header-inner .brewery-logo.on-dark{background:var(--navy);padding:14px;}
 .brewery-header .loc{font-size:0.78rem;text-transform:uppercase;letter-spacing:1.5px;color:var(--gray);font-weight:700;}
 .brewery-header h1{font-size:2.2rem;color:var(--navy);margin:8px 0 12px;}
 .brewery-header .paws{font-size:1.3rem;}

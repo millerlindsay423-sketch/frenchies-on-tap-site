@@ -106,7 +106,7 @@ function breweryPage(b) {
       <h1>${b.name}</h1>
       ${pickBadge}
       <div class="paws">${paws(b.rating)} <span style="color:var(--gray);font-size:0.85rem;font-weight:600;">(${b.rating} / 5)</span></div>
-    </div>${b.logo ? `\n    <img class="brewery-logo" src="../images/breweries/${b.logo}" alt="${escapeAttr(b.name)} logo">` : ''}
+    </div>${b.logo ? `\n    <img class="brewery-logo${b.logoDark ? ' on-dark' : ''}" src="../images/breweries/${b.logo}" alt="${escapeAttr(b.name)} logo">` : ''}
   </div>
 </div>
 
