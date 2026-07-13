@@ -379,13 +379,13 @@ footer{background:var(--charcoal);color:rgba(255,255,255,0.65);padding:48px 0 24
   .merch-grid{grid-template-columns:repeat(2,1fr);}
   .brewery-body{grid-template-columns:1fr;}
   .nav-links{display:none;}
-  .hero-photo .polaroid-stack{max-width:300px;height:340px;margin:0 auto;}
+  .hero-photo .polaroid-stack{max-width:310px;height:350px;margin:0 auto;}
   .hero-photo .card{width:150px;padding:10px 10px 14px;}
-  .hero-photo .card-palmer{left:0;top:0;transform:rotate(-3deg);}
-  .hero-photo .card-rosie{left:128px;top:90px;transform:rotate(6deg);}
+  .hero-photo .card-palmer{left:9px;top:0;transform:rotate(-3deg);}
+  .hero-photo .card-rosie{left:134px;top:90px;transform:rotate(6deg);}
   .hero-photo img.dogpic{height:135px;}
-  .hero-photo .badge-wrap{width:90px;height:90px;top:-12px;left:-4px;}
-  .hero-photo .badge{inset:9px;font-size:0.74rem;}
+  .hero-photo .badge-wrap{width:74px;height:74px;top:-20px;left:-16px;}
+  .hero-photo .badge{inset:7px;font-size:0.66rem;}
 }
 @media (max-width:520px){
   .brew-grid{grid-template-columns:1fr;}
