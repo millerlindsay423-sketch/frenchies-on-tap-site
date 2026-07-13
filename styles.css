@@ -236,6 +236,14 @@ section{padding:72px 0;}
 .gallery-cta{text-align:center;margin-top:28px;color:var(--gray);font-size:0.92rem;}
 .gallery-cta a{color:var(--red);font-weight:700;}
 
+/* Generic placeholder used anywhere a real photo hasn't been dropped in yet */
+.img-placeholder{
+  background:#e9e4d8;border:1px dashed #cfc7b0;border-radius:10px;
+  display:flex;align-items:center;justify-content:center;
+  color:#8a8375;font-size:0.78rem;text-align:center;padding:16px;
+  width:100%;height:100%;min-height:160px;
+}
+
 /* BREWERY DIRECTORY */
 .state-group{margin-bottom:52px;}
 .state-group h2{
