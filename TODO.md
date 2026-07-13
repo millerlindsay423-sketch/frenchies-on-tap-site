@@ -7,6 +7,7 @@ Things the site was built with placeholders for. Ask Claude Code to help with an
 - **Final logo files from Mary** — `images/logo/primary.png` and `images/logo/secondary.png` are cropped from her *draft* options sheet. They still say "EST. 2019" on the ribbon; the confirmed correct text is "EST. 2023." Swap in Mary's final delivered files once you have them and this fixes itself.
 - **Classy donate page URL** — the Donate page CTA buttons currently point to `#`. Share the real Classy campaign link and it'll get wired into both spots on `donate.html`.
 - **GitHub + Netlify** — the site isn't live anywhere yet. See "Going live" below.
+- **Buck Bald Brewing review update** — flagged as "at some point," not urgent: the Murphy, NC location is no longer dog-friendly except for service dogs (a German Shepherd apparently ruined it for everyone). When you're ready, let me know the details/tone you want and I'll work it into the review — didn't want to invent the specifics of what happened on my own.
 
 ## Nice to have, not blocking
 - **Current $ raised** — the Home page stat strip shows `$300` (carried over from the mockup as a placeholder). Give me the real number whenever you have it.
@@ -15,7 +16,8 @@ Things the site was built with placeholders for. Ask Claude Code to help with an
 - **`Palmer-Donate-Page-Mockup.html`** — this was referenced in the original requirements doc as the source design for the Donate page but was never dropped into this project folder. `donate.html` was built directly from the written spec instead. If that mockup turns up, worth a quick pass to check the built page against it.
 
 ## Content notes (not action items, just flagged during migration)
-- A few brewery review pages on the old site refer to the business by a slightly different name than the official page title (Freedom Brew & Shine's copy calls itself "Freedom Mill" throughout; Pendley Creek Brewing Company's copy calls itself "Pendley Brewery"). Left as-is since that's how the original copy read — worth reconciling with the breweries themselves if it matters to them.
+- Pendley Creek Brewing Company's review copy calls itself "Pendley Brewery" throughout, a slightly different name than the official page title. Left as-is since that's how the original copy read — worth reconciling if it matters.
+- Freedom Brew & Shine and Ironmonger Brewing & Distilling have been removed from the site (both out of business).
 - `Newsletter-Subscribers-Export.csv` (7-person list, contains names/emails/phone numbers) intentionally was **not** copied into this project — it's an archive of a killed feature and shouldn't live in a git repo. It stays wherever you're keeping the original requirements folder.
 
 ## Going live (needs your login, not something Claude Code can do for you)

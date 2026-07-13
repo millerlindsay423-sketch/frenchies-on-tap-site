@@ -4,7 +4,7 @@
     "name": "Cherry Street Brewing",
     "state": "Georgia",
     "location": "Cumming, GA",
-    "rating": 4,
+    "rating": 5,
     "quip": "The original Forsyth County brewery — the first ones legally allowed to whip up craft beer in the area.",
     "pick": false,
     "pickYears": [],
@@ -29,17 +29,6 @@
       "crooked-culture-brewing-2.jpg",
       "crooked-culture-brewing-3.jpg"
     ]
-  },
-  {
-    "slug": "freedom-brew-shine",
-    "name": "Freedom Brew & Shine",
-    "state": "Georgia",
-    "location": "Spot Rd, Cumming, GA",
-    "rating": 3.5,
-    "quip": "If you're on the hunt for a destination brewery that's more fun than a squirrel on a caffeine high, look no further than Freedom Mill!",
-    "pick": false,
-    "pickYears": [],
-    "review": "Listen up, humans! If you're on the hunt for a destination brewery that's more fun than a squirrel on a caffeine high, look no further than Freedom Mill! This place is so family-friendly that even the kiddos will be entertained while you sip on your favorite libation. I mean, they've got enough activities to keep the little ones busy while you enjoy your drink—it's like a daycare for humans! Just remember to keep an eye on them; you don't want them trying to \"help\" with the ax throwing!\n\nOne reason my humans are head over paws for Freedom Mill (besides my almost-famous status, of course) is that they serve both beer and cocktails. So, if you're one of those rare creatures who doesn't like beer (I know, shocking!), you've got plenty of options to mix it up. It's like a buffet for your taste buds!\n\nAnd let's talk about dog-friendliness! They've got a dog bowl with a Frenchie on it—because obviously, they know who the real star is here. Plus, there's always a food truck parked outside, which means special treats are just a sniff away. I've been known to do a little dance when I see certain trucks roll in.\n\nThis place is HUGE! They've got everything from a store to a shooting range, an arcade upstairs, and even ax throwing! I mean, who doesn't want to throw sharp objects while sipping on a cold brew (JUST KIDDING, one thing before the other, you know?) I like to think of myself as the unofficial mascot, lounging on the big sofa in front of the jumbo TV, watching the big game while my humans cheer like they're at the Super Bowl.\n\nShoutout to JB, the general manager, and Maria, the social media guru! These two are the best! They always have treats and pets for me, which is basically the doggie equivalent of winning the lottery.\n\nAnd let's not forget the patriotism! This place has it locked down tighter than my grip on a chew toy. As the most patriotic Frenchie you'll ever meet, I'm all in for the red, white, and blue! So, if you're looking for a place where you can enjoy great drinks, entertain the kiddos, and let your pup feel like a VIP, Freedom Mill Brewery is the place to be! Cheers to good times, great brews, and endless belly rubs!"
   },
   {
     "slug": "frog-rock-brewing-company",
@@ -94,22 +83,11 @@
     ]
   },
   {
-    "slug": "ironmonger-brewing-distilling",
-    "name": "Ironmonger Brewing & Distilling",
-    "state": "Georgia",
-    "location": "2129 NW Pkwy Ste 105, Marietta, GA 30067",
-    "rating": 3.5,
-    "quip": "I'm not sure I get it – I can bring my treats and water, the beer is good, but I can't tell if they want us there.",
-    "pick": false,
-    "pickYears": [],
-    "review": "Howdy, fellow fur-friends and human companions! It's your favorite brew-hopping Frenchie, Palmer, here to share my thoughts on a truly unique spot: Iron Monger Brewing! Now, let me tell you, this place is a bit of an adventure, but once you get past some of the oddities, you'll discover they craft some seriously great beers.\n\nFirst off, Iron Monger is tucked away in an offbeat strip mall, so don't be surprised if you have to do a little treasure hunting to find it. And trust me, make sure to check their website for the hours—those can be one of the quirkiest things about this brewery! You might even stumble upon a pocket knife convention while you're there. Yep, you heard that right! It's all part of the charm of this place.\n\nNow, if you're looking for some entertainment, Iron Monger has got you covered with ax throwing! Just a little tip from me: save your beers for later if you plan on trying your hand at that. I'd hate to see my humans miss out on their delicious brews because they got a little too carried away with the axes!\n\nThe vibe here is strong cowboy, with some fantastic murals from the famous 6666 Ranch in Texas adorning the walls. It really adds to the atmosphere and makes you feel like you're in a true Western saloon—just with better beer!\n\nSpeaking of beer, my humans have a couple of favorites that they can't stop raving about. The \"Billet Blood Orange Ale\" is a must-try, especially on those warm Southern afternoons. It's super refreshing and perfect for sipping while lounging in the sun. They also love the \"You Have Feelings?\" IPA, which packs a flavorful punch that keeps them coming back for more.\n\nIn conclusion, if you're up for a little adventure and don't mind some quirky surprises, Iron Monger Brewing is definitely worth a stop! With great beers, unique entertainment, and a fun cowboy vibe, it's a place where both humans and pups can have a blast. So grab your humans, head on over, and let's raise a glass (or a bowl) to good times and great brews! Cheers!"
-  },
-  {
     "slug": "lazy-guy-distillery",
     "name": "Lazy Guy Distillery",
     "state": "Georgia",
     "location": "2950 Moon Station Rd, Kennesaw, GA 30144",
-    "rating": 4.5,
+    "rating": 5,
     "quip": "Great drinks, a cool vibe, and a pup-friendly atmosphere? What more could a dog ask for?",
     "pick": true,
     "pickYears": [
@@ -439,7 +417,7 @@
     "name": "Buckbald Brewing",
     "state": "Tennessee",
     "location": "Copperhill, TN &amp; Murphy, NC",
-    "rating": 4.5,
+    "rating": 5,
     "quip": "Great drinks, a cool vibe, and a pup-friendly atmosphere? What more could a dog ask for?",
     "pick": false,
     "pickYears": [],
