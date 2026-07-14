@@ -276,6 +276,17 @@ section{padding:72px 0;}
 .gallery-cta{text-align:center;margin-top:28px;color:var(--gray);font-size:0.92rem;}
 .gallery-cta a{color:var(--red);font-weight:700;}
 
+/* VIDEO FEATURE (Gallery) */
+.video-feature{max-width:360px;margin:0 auto;text-align:center;}
+.video-feature video{
+  width:100%;border-radius:14px;display:block;
+  box-shadow:0 16px 40px rgba(10,22,40,0.22);background:#000;
+}
+.video-feature p{
+  font-family:'Playfair Display',serif;font-style:italic;color:var(--navy);
+  font-size:0.92rem;margin-top:14px;
+}
+
 /* Generic placeholder used anywhere a real photo hasn't been dropped in yet */
 .img-placeholder{
   background:#e9e4d8;border:1px dashed #cfc7b0;border-radius:10px;
@@ -285,6 +296,25 @@ section{padding:72px 0;}
 }
 
 /* BREWERY DIRECTORY */
+.brewery-map{
+  height:440px;border-radius:14px;overflow:hidden;margin-bottom:48px;
+  border:1px solid #eee2c8;box-shadow:0 8px 24px rgba(10,22,40,0.08);
+  background:#e9e4d8;
+}
+.map-popup{font-family:'Work Sans',sans-serif;min-width:180px;}
+.map-popup-town{
+  font-family:'Playfair Display',serif;font-weight:800;color:var(--navy);
+  font-size:0.95rem;margin-bottom:6px;
+}
+.map-popup-brewery{padding:8px 0;border-top:1px solid #eee2c8;}
+.map-popup-brewery:first-of-type{border-top:none;padding-top:2px;}
+.map-popup-name{font-weight:700;color:var(--navy);font-size:0.88rem;}
+.map-popup-paws{color:var(--gold);font-size:0.82rem;margin:2px 0;}
+.map-popup-quip{
+  font-family:'Playfair Display',serif;font-style:italic;color:#444;
+  font-size:0.8rem;margin:2px 0 6px;
+}
+.map-popup-link{color:var(--red);font-weight:700;font-size:0.78rem;}
 .state-group{margin-bottom:52px;}
 .state-group h2{
   font-size:1.6rem;color:var(--navy);font-weight:900;margin-bottom:22px;
@@ -341,6 +371,10 @@ section{padding:72px 0;}
   font-family:'Playfair Display',serif;font-style:italic;color:var(--navy);
   font-size:1.2rem;border-left:3px solid var(--gold);padding-left:18px;margin:28px 0;
 }
+
+.lindsay-photos{display:flex;justify-content:center;gap:28px;margin:8px 0 40px;flex-wrap:wrap;}
+.lindsay-photos .together-polaroid{width:310px;transform:rotate(-5deg);}
+.lindsay-photos .together-polaroid:last-child{transform:rotate(4deg);}
 
 .todo-flag{
   display:inline-block;background:#fffbe6;border:1.5px dashed var(--gold);border-radius:6px;

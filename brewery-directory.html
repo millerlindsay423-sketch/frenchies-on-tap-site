@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Work+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
 </head>
 <body>
 
@@ -37,6 +38,12 @@
     <p>35 breweries across Georgia, North Carolina, and Tennessee — rated on water bowl quality, treat offerings, and how friendly the staff are to two very good dogs.</p>
   </div>
 </div>
+
+<section style="padding-bottom:0;">
+  <div class="wrap">
+    <div id="brewery-map" class="brewery-map"></div>
+  </div>
+</section>
 
 <section>
   <div class="wrap">
@@ -344,5 +351,7 @@
   </div>
 </footer>
 
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script src="scripts/map.js"></script>
 </body>
 </html>
