@@ -1,4 +1,5 @@
 .DS_Store
+.env
 *.heic
 *.heif
 *.HEIC
