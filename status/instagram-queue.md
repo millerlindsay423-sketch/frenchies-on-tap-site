@@ -39,13 +39,18 @@ Verified against actual Instagram post history via the Graph API, not assumption
 - `images/dogs/IMG_4962.jpg` (mission-adjacent, patio drink, brewery not clearly identifiable)
 - `images/dogs/IMG_2781.jpg` (Rosie personality, patio, busier background)
 
-## Pending from external tool (Claude Cowork), awaiting Lindsay's confirmation before scheduling
+## Available inventory from external tool (Claude Cowork), confirmed and ready for future use
 
-Lindsay's separate "Claude coworker" project also generates weekly Instagram suggestions. These 3 drafts were copied in on 2026-07-20 but are NOT yet scheduled — they conflict with our Mon/Wed/Fri cadence (drafted for Tue/Thu/Sat) and one is a new "Lindsay BTS" content type not in our current 3-category rotation. Dog identity also needs confirmation since these photos have no Finder tags (unlike our own pipeline, this other tool guessed identity from coloring alone):
+Lindsay's separate "Claude coworker" project also generates weekly Instagram suggestions — she's deleting that task since this system now covers the same job plus actual posting (recommended 2026-07-20). These 3 drafts were copied in on 2026-07-20; all dog identities are now confirmed. They weren't slotted into specific dates (their original Tue/Thu/Sat drafting doesn't match our Mon/Wed/Fri cadence, and the Aug 3–14 bridge batch is already full) — they're just good material sitting ready for whenever a slot opens up, starting with the Aug 15 monthly batch onward.
 
-- `IMG_2808.jpeg` (in ~/Pictures/French Bulldogs/, not yet imported to this project) — **confirmed Palmer by Lindsay on 2026-07-20** (the other tool had guessed Rosie — corrected). Caption doesn't name a dog directly, so it works as-is; this becomes a Palmer personality post, not Rosie.
-- `609.jpeg` (already in images/dogs/, confirmed **Red = Palmer** via Finder tag — this one checks out)
-- `IMG_7822.jpeg` (in ~/Pictures/French Bulldogs/, not yet imported) — **confirmed both dogs together by Lindsay on 2026-07-20**. Still needs a rotation fix (currently sideways) before it can be used.
+- `images/dogs/IMG_2808.jpeg` — **confirmed Palmer** by Lindsay (2026-07-20; the other tool had guessed Rosie — corrected). Imported into images/dogs/. Caption doesn't name a dog directly, so it works as-is as a Palmer personality post.
+  Caption: "They told me to sit still for the picture. I sat still. I also never blinked once. Real focus. Mostly I was thinking about that sandwich from earlier. Follow Palmer and Rosie for more. #FrenchiesOnTap"
+- `images/dogs/609.jpeg` — confirmed **Red = Palmer** via Finder tag (checked out independently). Already in images/dogs/.
+  Caption: "Palmer's been doing this a while now. Brewery cards, tail wags, a mission stitched into every visit. That mission is Shepherd's Men and the SHARE Military Initiative at Shepherd Center. They treat post-9/11 veterans living with PTSD and TBI. Last year we raised $300. This year the goal is $5,000 to $10,000, and right now we're starting from zero. Every card handed out, every follow, every dollar moves that number. Donate at the link in bio. #FrenchiesOnTap #ShepherdsMen #ShareMilitaryInitiative" (tags: @shepherdsmen, @shepherdccenter)
+- `images/dogs/IMG_7822.jpeg` — **confirmed both dogs together** by Lindsay (2026-07-20). Imported into images/dogs/ and **rotation fixed** (was sideways, now upright, verified visually — Palmer on the armchair/ottoman, Rosie on the rug by the toy basket). **Suggested as the first BTS post** for the Aug 15 monthly batch — strong fit, casual at-home shot, caption already drafted below.
+  Caption: "Sunday planning meeting, Frenchie edition. Palmer supervised from the armchair. Rosie just wanted into the toy basket. This is basically how every week starts around here. #FrenchiesOnTap"
+
+Note: none of these three could get proper Finder tags written programmatically (macOS tags need binary plist encoding, not a plain string — attempted and abandoned 2026-07-20). Identity is documented here in writing instead, which is durable since tags get stripped by git anyway.
 
 ## Gap flagged
 
