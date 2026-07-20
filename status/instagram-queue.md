@@ -17,13 +17,39 @@ Verified against actual Instagram post history via the Graph API, not assumption
 - **2026-07-31 (Fri) — Rosie personality**: `images/gallery/rosie-full-stare.jpg` — reminder task: `rosie-personality-post-reminder-0731`
   Caption: "Rosie giving the stare that means business. 😤🐾 No, she is not moving from this cafe table. Yes, she knows exactly what she wants. #FrenchiesOnTap #FrenchBulldog"
 
-## Staged, unassigned (no date/reminder yet)
+- **2026-08-03 (Mon) — Palmer personality**: `images/gallery/palmer-patio-alert.jpg` — reminder task: `palmer-personality-post-reminder-0803`
+  Caption: "Palmer, fully alert. 🐾 Something moved. She doesn't know what. She will find out. #FrenchiesOnTap #FrenchBulldog"
+- **2026-08-05 (Wed) — mission/brewery**: `images/gallery/cherry-st-brewing.jpg` — reminder task: `brewery-mission-post-reminder-0805`
+  Caption: "Palmer clocking in at Cherry St Brewing. 🍹🐾 Every stop like this helps us get closer to this year's goal for Shepherd's Men and the SHARE Military Initiative. More at frenchiesontap.com. #FrenchiesOnTap #FrenchBulldog #ShepherdsMen #SHAREMilitaryInitiative"
+- **2026-08-07 (Fri) — Rosie personality**: `images/gallery/rosie-tongue-out.jpg` — reminder task: `rosie-personality-post-reminder-0807`
+  Caption: "Rosie's got something to say about this photo. 👅🐾 We just don't speak the language. #FrenchiesOnTap #FrenchBulldog"
+- **2026-08-10 (Mon) — Palmer personality**: `images/gallery/palmer-colorful-harness.jpg` — reminder task: `palmer-personality-post-reminder-0810`
+  Caption: "Palmer picked her own harness today. Or she didn't, but she's acting like she did. 🐾 #FrenchiesOnTap #FrenchBulldog"
+- **2026-08-12 (Wed) — mission/brewery**: `images/gallery/cobb-craft-beverage-month.jpg` — reminder task: `brewery-mission-post-reminder-0812`
+  Caption: "Palmer's all in for Cobb Craft Beverage Month. 🍺🐾 Every patio, every pour, every dollar goes toward Shepherd's Men and the SHARE Military Initiative. More at frenchiesontap.com. #FrenchiesOnTap #FrenchBulldog #ShepherdsMen #SHAREMilitaryInitiative"
+- **2026-08-14 (Fri) — Rosie personality**: `images/gallery/rosie-chair-crazy.jpg` — reminder task: `rosie-personality-post-reminder-0814`
+  Caption: "Rosie has claimed this chair. 🪑🐾 Objections will not be considered. #FrenchiesOnTap #FrenchBulldog"
 
-(empty as of 2026-07-20 — everything currently staged has been assigned above)
+## Staged, unassigned (no date/reminder yet — backup inventory)
+
+- `images/dogs/IMG_4301.jpg` (Palmer personality, watching the street from a balcony)
+- `images/dogs/IMG_4634.jpg` (Palmer personality, close-up leaning on a table)
+- `images/dogs/IMG_5348.jpg` (Palmer personality, patio stool)
+- `images/dogs/IMG_4732.jpg` (Palmer personality, deck)
+- `images/dogs/IMG_4962.jpg` (mission-adjacent, patio drink, brewery not clearly identifiable)
+- `images/dogs/IMG_2781.jpg` (Rosie personality, patio, busier background)
+
+## Pending from external tool (Claude Cowork), awaiting Lindsay's confirmation before scheduling
+
+Lindsay's separate "Claude coworker" project also generates weekly Instagram suggestions. These 3 drafts were copied in on 2026-07-20 but are NOT yet scheduled — they conflict with our Mon/Wed/Fri cadence (drafted for Tue/Thu/Sat) and one is a new "Lindsay BTS" content type not in our current 3-category rotation. Dog identity also needs confirmation since these photos have no Finder tags (unlike our own pipeline, this other tool guessed identity from coloring alone):
+
+- `IMG_2808.jpeg` (in ~/Pictures/French Bulldogs/, not yet imported to this project) — other tool guessed Rosie based on coloring, itself flagged uncertainty, no tag to verify. **Needs Lindsay's confirmation.**
+- `609.jpeg` (already in images/dogs/, confirmed **Red = Palmer** via Finder tag — this one checks out)
+- `IMG_7822.jpeg` (in ~/Pictures/French Bulldogs/, not yet imported) — shows both dogs together, but the photo is **sideways and needs rotating** before use. Other tool guessed which dog is which based on markings; no tag to verify either dog. **Needs Lindsay's confirmation on both identities, plus a rotation fix.**
 
 ## Gap flagged
 
-No staged content yet for the week of 2026-08-03 or 2026-08-10 — the recurring monthly batch-staging task doesn't run until 2026-08-15, which is too late to cover those two weeks. Needs either an early manual top-up or the monthly task's first run moved earlier. See open question in `status/2026-07-20.md`.
+None currently — 2026-08-03 through 2026-08-14 is now bridged (above), and the recurring monthly task picks up again 2026-08-15.
 
 ## Posted
 
