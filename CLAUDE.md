@@ -22,11 +22,21 @@ Brand voice: warm, a little playful, mission-forward but not preachy. Look at ex
 - `scripts/instagram/post.js <image-url>[,<image-url2>,...] "<caption>" [--tag user1,user2]` — publishes a feed post via the Graph API (create container → wait → publish). A single URL posts one photo; comma-separated URLs publish a swipeable carousel. `--tag` adds Instagram user-tags (mentions) to the photo(s) — usernames only, no `@`. Also supports Stories (`media_type=STORIES`) and Reels (`media_type=REELS`, needs `video_url`) per Meta's Content Publishing API, though the current script only implements feed/carousel posts — extend it further if a Stories/Reels post is needed.
 - `scripts/instagram/refresh-token.js` — refreshes the long-lived token (60-day expiry) and updates `.env` in place. Needs to run at least once before 60 days elapse or the token expires permanently.
 - Credentials live in `.env` (gitignored, never commit) — see `.env.example` for the required keys.
-- **Never run `post.js` without Lindsay's explicit go-ahead in the moment** — it publishes live to the public account. Adding photos to the gallery and pushing to git is lower-stakes and fine to do proactively once she's approved a specific photo/caption.
+- **Never run `post.js` without Lindsay's explicit go-ahead in the moment** — it publishes live to the public account.
+- Posting to Instagram is a separate action from deploying the website — it doesn't need a fresh git push, only a photo that's *already* live at a stable URL from a prior deploy. See "Deploy cadence" below: this means a whole month's worth of gallery photos needs to be live before that month's posting cadence can run without interruption.
 
 ## Content cadence
 
 Aiming for 3 posts/week: one Palmer personality shot, one mission/brewery-visit shot, one Rosie personality shot. A scheduled task (`weekly-instagram-post-picks`, runs Sundays 9am) prepares candidates each week for Lindsay to review and approve — see `/Users/lindsaymiller/.claude/scheduled-tasks/weekly-instagram-post-picks/SKILL.md` for its exact logic.
+
+## Deploy cadence
+
+Every git push to `main` triggers a Netlify production deploy, and Netlify's free-tier credits are consumed almost entirely by deploy count (15 credits each) rather than file size or count. To avoid burning through the monthly credit allowance:
+
+- **Push to `main` roughly once a month, around the 15th** (Lindsay's Netlify billing cycle resets on the 13th — the 15th gives a couple days' buffer into the fresh cycle rather than draining the tail end of the old one).
+- Committing locally throughout the month is fine and encouraged — just don't push. Use `git status`/`git diff` (or `status/`) to track what's piled up waiting for the next push.
+- **Exception: genuinely urgent fixes** (something broken or wrong on the live site) push immediately, don't wait for the monthly batch.
+- Because Instagram posting needs its photo to already be live (see above), **the monthly push should stage the whole upcoming month's worth of gallery photos at once** (roughly 12-13 photos for 4-5 weeks of the 3x/week cadence), not just the next few days'. Otherwise the weekly posting cadence stalls between monthly pushes waiting on a photo that isn't deployed yet.
 
 ## Session status log
 
