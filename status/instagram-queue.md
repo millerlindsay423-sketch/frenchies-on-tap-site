@@ -43,7 +43,7 @@ Verified against actual Instagram post history via the Graph API, not assumption
 
 Lindsay's separate "Claude coworker" project also generates weekly Instagram suggestions. These 3 drafts were copied in on 2026-07-20 but are NOT yet scheduled — they conflict with our Mon/Wed/Fri cadence (drafted for Tue/Thu/Sat) and one is a new "Lindsay BTS" content type not in our current 3-category rotation. Dog identity also needs confirmation since these photos have no Finder tags (unlike our own pipeline, this other tool guessed identity from coloring alone):
 
-- `IMG_2808.jpeg` (in ~/Pictures/French Bulldogs/, not yet imported to this project) — other tool guessed Rosie based on coloring, itself flagged uncertainty, no tag to verify. **Needs Lindsay's confirmation.**
+- `IMG_2808.jpeg` (in ~/Pictures/French Bulldogs/, not yet imported to this project) — **confirmed Palmer by Lindsay on 2026-07-20** (the other tool had guessed Rosie — corrected). Caption doesn't name a dog directly, so it works as-is; this becomes a Palmer personality post, not Rosie.
 - `609.jpeg` (already in images/dogs/, confirmed **Red = Palmer** via Finder tag — this one checks out)
 - `IMG_7822.jpeg` (in ~/Pictures/French Bulldogs/, not yet imported) — shows both dogs together, but the photo is **sideways and needs rotating** before use. Other tool guessed which dog is which based on markings; no tag to verify either dog. **Needs Lindsay's confirmation on both identities, plus a rotation fix.**
 
