@@ -27,7 +27,12 @@ Brand voice: warm, a little playful, mission-forward but not preachy. Look at ex
 
 ## Content cadence
 
-Aiming for 3 posts/week: one Palmer personality shot, one mission/brewery-visit shot, one Rosie personality shot. A scheduled task (`weekly-instagram-post-picks`, runs Sundays 9am) prepares candidates each week for Lindsay to review and approve — see `/Users/lindsaymiller/.claude/scheduled-tasks/weekly-instagram-post-picks/SKILL.md` for its exact logic.
+Aiming for 3 posts/week: one Palmer personality shot, one mission/brewery-visit shot, one Rosie personality shot.
+
+- **`status/instagram-queue.md`** is the single source of truth for what's staged, scheduled, and posted — always check it before assuming what "this week's" content is. It exists because two separate un-synced batches once got created for the same week (see `status/2026-07-20.md`), causing the wrong photo to nearly go out.
+- **`monthly-instagram-batch-staging`** (runs the 15th of each month, 9am) stages a whole month's worth of photos/captions at once — adds them to the gallery, updates the queue file, creates a one-time reminder task for each post date, and commits locally without pushing. See `/Users/lindsaymiller/.claude/scheduled-tasks/monthly-instagram-batch-staging/SKILL.md`.
+- Each dated reminder task (e.g. `palmer-personality-post-reminder-0727`) fires at 10am on its date, notifies Lindsay, and waits for her live "go" before anything publishes — it never runs `post.js` itself.
+- The old `weekly-instagram-post-picks` task (proposed 3 fresh candidates every Sunday) is disabled — it was part of why deploys were happening weekly instead of monthly.
 
 ## Deploy cadence
 
