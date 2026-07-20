@@ -45,7 +45,7 @@ Lindsay's separate "Claude coworker" project also generates weekly Instagram sug
 
 - `IMG_2808.jpeg` (in ~/Pictures/French Bulldogs/, not yet imported to this project) — **confirmed Palmer by Lindsay on 2026-07-20** (the other tool had guessed Rosie — corrected). Caption doesn't name a dog directly, so it works as-is; this becomes a Palmer personality post, not Rosie.
 - `609.jpeg` (already in images/dogs/, confirmed **Red = Palmer** via Finder tag — this one checks out)
-- `IMG_7822.jpeg` (in ~/Pictures/French Bulldogs/, not yet imported) — shows both dogs together, but the photo is **sideways and needs rotating** before use. Other tool guessed which dog is which based on markings; no tag to verify either dog. **Needs Lindsay's confirmation on both identities, plus a rotation fix.**
+- `IMG_7822.jpeg` (in ~/Pictures/French Bulldogs/, not yet imported) — **confirmed both dogs together by Lindsay on 2026-07-20**. Still needs a rotation fix (currently sideways) before it can be used.
 
 ## Gap flagged
 
