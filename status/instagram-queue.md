@@ -6,8 +6,6 @@ Verified against actual Instagram post history via the Graph API, not assumption
 
 ## Scheduled (reminder task created, awaiting live go-ahead on the date)
 
-- **2026-07-22 (Wed) — mission/brewery**: `images/gallery/horned-owl-palmer.jpg` — reminder task: `brewery-mission-post-reminder`
-  Caption: "Palmer supervising quality control at Horned Owl Brewing. 🍻🐾 Every stop on the tour is one step closer to another donation for Shepherd's Men and the SHARE Military Initiative — good beer, better cause. More at frenchiesontap.com. #FrenchiesOnTap #FrenchBulldog #ShepherdsMen #SHAREMilitaryInitiative"
 - **2026-07-24 (Fri) — Rosie personality**: `images/gallery/rosie-treat-alert.jpg` — reminder task: `rosie-personality-post-reminder`
   Caption: "Rosie has entered the chat. 👀🐾 That's the face she makes when she hears the treat bag from two rooms away. #FrenchiesOnTap #FrenchBulldog"
 - **2026-07-27 (Mon) — Palmer personality**: `images/gallery/palmer-mid-thought.jpg` — reminder task: `palmer-personality-post-reminder-0727`
@@ -61,3 +59,4 @@ None currently — 2026-08-03 through 2026-08-14 is now bridged (above), and the
 - 2026-07-16 — `new-website-portrait.jpg` (Palmer) — media `18127008610633755` — website relaunch announcement
 - 2026-07-17 — `rosie-party-hat.jpg` (Rosie) — media `17959745085159324` — "Meet Rosie" intro
 - 2026-07-20 — `palmer-bar-interrogation.jpg` (Palmer) — media `18106945178094724`
+- 2026-07-22 — `horned-owl-palmer.jpg` (Palmer, mission/brewery) — media `18208915498350386` — approved via reminder, matched exactly, no mix-up this time
