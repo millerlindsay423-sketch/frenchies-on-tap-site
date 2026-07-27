@@ -6,10 +6,6 @@ Verified against actual Instagram post history via the Graph API, not assumption
 
 ## Scheduled (reminder task created, awaiting live go-ahead on the date)
 
-- **2026-07-24 (Fri) — Rosie personality**: `images/gallery/rosie-treat-alert.jpg` — reminder task: `rosie-personality-post-reminder`
-  Caption: "Rosie has entered the chat. 👀🐾 That's the face she makes when she hears the treat bag from two rooms away. #FrenchiesOnTap #FrenchBulldog"
-- **2026-07-27 (Mon) — Palmer personality**: `images/gallery/palmer-mid-thought.jpg` — reminder task: `palmer-personality-post-reminder-0727`
-  Caption: "Palmer, mid-thought. 🤔🐾 We don't know what she's looking at, we just know she's judging it. That's the Palmer experience. #FrenchiesOnTap #FrenchBulldog"
 - **2026-07-29 (Wed) — mission/brewery**: `images/gallery/lazy-guy-distillery-porch.jpg` — reminder task: `brewery-mission-post-reminder-0729`
   Caption: "Palmer studying the menu at Lazy Guy Distillery like she's the one buying. 🥃🐾 This spot actually earned Palmer's Pick 2025. Turns out good taste runs in the family. Every visit like this helps fund Shepherd's Men and the SHARE Military Initiative. More at frenchiesontap.com. #FrenchiesOnTap #FrenchBulldog #ShepherdsMen #SHAREMilitaryInitiative"
 - **2026-07-31 (Fri) — Rosie personality**: `images/gallery/rosie-full-stare.jpg` — reminder task: `rosie-personality-post-reminder-0731`
@@ -56,6 +52,8 @@ None currently — 2026-08-03 through 2026-08-14 is now bridged (above), and the
 
 ## Posted
 
+- 2026-07-27 — `palmer-mid-thought.jpg` (Palmer personality) — media `18192438643361660` — approved via reminder, live go-ahead given in chat
+- 2026-07-24 — `rosie-treat-alert.jpg` (Rosie personality) — media `18096446945211407` — approved via reminder, live go-ahead given in chat
 - 2026-07-16 — `new-website-portrait.jpg` (Palmer) — media `18127008610633755` — website relaunch announcement
 - 2026-07-17 — `rosie-party-hat.jpg` (Rosie) — media `17959745085159324` — "Meet Rosie" intro
 - 2026-07-20 — `palmer-bar-interrogation.jpg` (Palmer) — media `18106945178094724`
