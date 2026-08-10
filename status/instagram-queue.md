@@ -8,12 +8,6 @@ Verified against actual Instagram post history via the Graph API, not assumption
 
 - **2026-07-29 (Wed) — mission/brewery**: `images/gallery/lazy-guy-distillery-porch.jpg` — reminder task: `brewery-mission-post-reminder-0729`
   Caption: "Palmer studying the menu at Lazy Guy Distillery like she's the one buying. 🥃🐾 This spot actually earned Palmer's Pick 2025. Turns out good taste runs in the family. Every visit like this helps fund Shepherd's Men and the SHARE Military Initiative. More at frenchiesontap.com. #FrenchiesOnTap #FrenchBulldog #ShepherdsMen #SHAREMilitaryInitiative"
-- **2026-08-05 (Wed) — mission/brewery**: `images/gallery/cherry-st-brewing.jpg` — reminder task: `brewery-mission-post-reminder-0805`
-  Caption: "Palmer clocking in at Cherry St Brewing. 🍹🐾 Every stop like this helps us get closer to this year's goal for Shepherd's Men and the SHARE Military Initiative. More at frenchiesontap.com. #FrenchiesOnTap #FrenchBulldog #ShepherdsMen #SHAREMilitaryInitiative"
-- **2026-08-07 (Fri) — Rosie personality**: `images/gallery/rosie-tongue-out.jpg` — reminder task: `rosie-personality-post-reminder-0807`
-  Caption: "Rosie's got something to say about this photo. 👅🐾 We just don't speak the language. #FrenchiesOnTap #FrenchBulldog"
-- **2026-08-10 (Mon) — Palmer personality**: `images/gallery/palmer-colorful-harness.jpg` — reminder task: `palmer-personality-post-reminder-0810`
-  Caption: "Palmer picked her own harness today. Or she didn't, but she's acting like she did. 🐾 #FrenchiesOnTap #FrenchBulldog"
 - **2026-08-12 (Wed) — mission/brewery**: `images/gallery/cobb-craft-beverage-month.jpg` — reminder task: `brewery-mission-post-reminder-0812`
   Caption: "Palmer's all in for Cobb Craft Beverage Month. 🍺🐾 Every patio, every pour, every dollar goes toward Shepherd's Men and the SHARE Military Initiative. More at frenchiesontap.com. #FrenchiesOnTap #FrenchBulldog #ShepherdsMen #SHAREMilitaryInitiative"
 - **2026-08-14 (Fri) — Rosie personality**: `images/gallery/rosie-chair-crazy.jpg` — reminder task: `rosie-personality-post-reminder-0814`
@@ -27,6 +21,19 @@ Verified against actual Instagram post history via the Graph API, not assumption
 - `images/dogs/IMG_4732.jpg` (Palmer personality, deck)
 - `images/dogs/IMG_4962.jpg` (mission-adjacent, patio drink, brewery not clearly identifiable)
 - `images/dogs/IMG_2781.jpg` (Rosie personality, patio, busier background)
+
+Added 2026-08-10, confirmed **Palmer** via Photos app cross-reference against her People & Pets album (see `status/2026-08-10.md`):
+
+- `images/dogs/IMG_0990.jpg` (Palmer personality, sitting on a white sherpa blanket, antler chew nearby, worried-eyes look)
+- `images/dogs/IMG_0996.jpg` (Palmer personality, sitting on the ottoman in front of the fireplace, white chest marking visible)
+- `images/dogs/IMG_1048.jpg` (Palmer personality, standing up on a dining chair, looking up at the camera)
+- `images/dogs/IMG_1319.jpg` (Palmer personality, sitting beside a houseplant in a sunbeam)
+- `images/dogs/IMG_2455.jpg` (Palmer personality, standing on the treadmill desk — funny home-office shot)
+- `images/dogs/IMG_3110.jpg` (Palmer personality, overhead shot on the wood floor wearing a floral bow)
+- `images/dogs/IMG_3976.jpg` (Palmer personality, sitting on the kitchen floor by the oven)
+- `images/dogs/output_image1723911843162.jpg` (Palmer personality/mission-adjacent — lounging on the couch with a "Shepherd's Men" book visible on the shelf behind her)
+
+16 more from the same Photos sync are unresolved (Palmer vs. Rosie unclear) and sitting in `Pictures/French Bulldogs/_new_aug10/Needs-ID/` on Lindsay's Mac, awaiting Finder color tags before they can be added here.
 
 ## Available inventory from external tool (Claude Cowork), confirmed and ready for future use
 
@@ -47,6 +54,8 @@ None currently — 2026-08-03 through 2026-08-14 is now bridged (above), and the
 
 ## Posted
 
+- 2026-08-10 — `palmer-colorful-harness.jpg` (Palmer personality) — media `18119029792682243` — approved via reminder, live go-ahead given in chat
+- 2026-08-05 — `cherry-st-brewing.jpg` (Palmer, mission/brewery) — media `18045798458652820` — approved via reminder, live go-ahead given in chat
 - 2026-08-03 — `palmer-patio-alert.jpg` (Palmer personality) — media `18155798989499778` — approved via reminder, live go-ahead given in chat; site pushed to production same day to get the photo live before posting (also cleared the Aug 3–14 bridge batch + other pending commits)
 - 2026-07-31 — `rosie-full-stare.jpg` (Rosie personality) — media `18435036298124340` — 0731 reminder fired correctly at 10am but was missed; approved live in chat that evening instead. A different task, `rosie-personality-post-reminder-0814`, also fired today by mistake and initially surfaced the wrong (8/14) photo — caught before publishing, see `status/2026-07-31.md`.
 - 2026-07-27 — `palmer-mid-thought.jpg` (Palmer personality) — media `18192438643361660` — approved via reminder, live go-ahead given in chat
