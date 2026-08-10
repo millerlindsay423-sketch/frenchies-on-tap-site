@@ -30,6 +30,18 @@
   // can't ever wander out to a whole-country/whole-world view.
   const SOUTHEAST_BOUNDS = L.latLngBounds([24.5, -89.0], [37.0, -75.0]);
 
+  // Adventure Series sticker pin — a red teardrop marker (CSS, no image
+  // asset) for towns with at least one brewery carrying an Adventure Series
+  // sticker (see data/breweries.json's "adventureSticker" flag). Every other
+  // town keeps Leaflet's default blue marker, untouched.
+  const stickerIcon = L.divIcon({
+    className: 'sticker-pin',
+    html: '<span class="sticker-pin-dot"></span>',
+    iconSize: [22, 30],
+    iconAnchor: [11, 30],
+    popupAnchor: [0, -28]
+  });
+
   Promise.all([
     fetch('data/breweries.json').then((r) => r.json()),
     fetch('data/towns.json').then((r) => r.json())
@@ -68,11 +80,13 @@
             <div class="map-popup-name">${b.name}</div>
             <div class="map-popup-paws">${paws(b.rating)}</div>
             <p class="map-popup-quip">&ldquo;${b.quip}&rdquo;</p>
+            ${b.adventureSticker ? '<p class="map-popup-sticker">🎖️ Adventure Series sticker available here</p>' : ''}
             <a class="map-popup-link" href="breweries/${b.slug}.html">Read the review &rarr;</a>
           </div>`).join('')}
       </div>`;
 
-      const marker = L.marker(coords).addTo(map);
+      const hasSticker = list.some((b) => b.adventureSticker);
+      const marker = L.marker(coords, hasSticker ? { icon: stickerIcon } : {}).addTo(map);
       marker.bindPopup(popupHtml, { maxWidth: 260, maxHeight: 260 });
       // Hover opens on desktop, tap opens on mobile (tap fires 'click').
       // No mouseout-close: it would fire as soon as the cursor leaves the
