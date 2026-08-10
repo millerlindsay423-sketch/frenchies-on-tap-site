@@ -33,7 +33,24 @@ Added 2026-08-10, confirmed **Palmer** via Photos app cross-reference against he
 - `images/dogs/IMG_3976.jpg` (Palmer personality, sitting on the kitchen floor by the oven)
 - `images/dogs/output_image1723911843162.jpg` (Palmer personality/mission-adjacent — lounging on the couch with a "Shepherd's Men" book visible on the shelf behind her)
 
-16 more from the same Photos sync are unresolved (Palmer vs. Rosie unclear) and sitting in `Pictures/French Bulldogs/_new_aug10/Needs-ID/` on Lindsay's Mac, awaiting Finder color tags before they can be added here.
+The remaining 16 from the same Photos sync were identity-unclear at first pass; Lindsay resolved them via Finder color tags on 2026-08-10 (Red = Palmer, Orange = Rosie, Yellow = both). Converted and added to `images/dogs/`:
+
+- `images/dogs/7095969022429225022.jpg` (Palmer personality, brewery patio, red harness)
+- `images/dogs/F020DE2B-F9D0-4B73-A64B-BAA1D5D85E14.jpg` (Palmer personality, sitting by a "Masters"-branded water bowl at home)
+- `images/dogs/IMG_1242.jpg` (Palmer personality, standing on a barstool, brewery/restaurant setting)
+- `images/dogs/IMG_1740.jpg` (Palmer, mission-adjacent — lying on a gravel patio next to a to-go drink cup, brewery)
+- `images/dogs/IMG_1860.jpg` (Palmer, mission-adjacent — brewery patio seating, garage-door windows, food truck visible outside)
+- `images/dogs/IMG_1862-1.jpg` (Palmer, mission-adjacent — close-up, same brewery patio)
+- `images/dogs/IMG_1866.jpg` (Palmer, mission-adjacent — close-up at the same brewery bar counter)
+- `images/dogs/IMG_2159.jpg` (Palmer personality, sitting on a stone wall in the backyard)
+- `images/dogs/IMG_2348.jpg` (Palmer, mission-adjacent — brewery bar counter, candy-cane holiday harness)
+- `images/dogs/e79657f5-8162-49bf-a6f5-37f30fd45635.jpg` (Palmer personality, garage/workshop, striped harness)
+- `images/dogs/imagejpeg_0-1.jpg` (Palmer personality, wearing a flag bandana headband — strong patriotic angle)
+- `images/dogs/imagejpeg_0-2.jpg` (Palmer personality, wild-hair costume outfit, indoors)
+- `images/dogs/IMG_2584-1.jpg` (Rosie personality, tongue out, backyard stone wall)
+- `images/dogs/IMG_2586-1.jpg` (Rosie personality, close-up, tongue out, backyard)
+- `images/dogs/IMG_2590-1.jpg` (Rosie personality, tongue out, standing on the backyard wall)
+- `images/dogs/IMG_2650-1.jpg` (both dogs together — overhead kitchen-floor shot, good candidate for a "both" or BTS-style post)
 
 ## Available inventory from external tool (Claude Cowork), confirmed and ready for future use
 
