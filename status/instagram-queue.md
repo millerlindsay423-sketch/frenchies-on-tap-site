@@ -6,17 +6,6 @@ Verified against actual Instagram post history via the Graph API, not assumption
 
 ## Scheduled (reminder task created, awaiting live go-ahead on the date)
 
-- **2026-07-29 (Wed) — mission/brewery**: `images/gallery/lazy-guy-distillery-porch.jpg` — reminder task: `brewery-mission-post-reminder-0729`
-  Caption: "Palmer studying the menu at Lazy Guy Distillery like she's the one buying. 🥃🐾 This spot actually earned Palmer's Pick 2025. Turns out good taste runs in the family. Every visit like this helps fund Shepherd's Men and the SHARE Military Initiative. More at frenchiesontap.com. #FrenchiesOnTap #FrenchBulldog #ShepherdsMen #SHAREMilitaryInitiative"
-  **FLAGGED 2026-08-15**: this reminder fired back on 7/29 but there's no corresponding entry in "Posted" below and no `status/2026-07-29.md` — looks like it may have been missed rather than declined. Needs Lindsay to confirm whether it actually went out (check Instagram directly) before this line is trusted either way.
-- **2026-08-14 (Fri) — Rosie personality**: `images/gallery/rosie-chair-crazy.jpg` — reminder task: `rosie-personality-post-reminder-0814`
-  Caption: "Rosie has claimed this chair. 🪑🐾 Objections will not be considered. #FrenchiesOnTap #FrenchBulldog"
-  **NOTE 2026-08-15**: gallery.html's alt text for this photo is currently "Rosie's close-up derpy grin", which doesn't match the reminder task's description ("Rosie claiming the good chair") or this caption. Found this uncommitted and unexplained at the start of today's session — didn't touch it, but flagging in case it signals a photo/caption mismatch like the 7/31 incident.
-
-- **2026-08-17 (Mon) — Palmer personality**: `images/gallery/palmer-sherpa-blanket.jpg` — reminder task: `palmer-personality-post-reminder-0817`
-  Caption: "Palmer, deeply concerned about something only she can see. (It's probably snack-related.) 🦴🐾 #FrenchiesOnTap #FrenchBulldog"
-- **2026-08-19 (Wed) — mission/brewery**: `images/gallery/palmer-brewery-cards.jpg` — reminder task: `brewery-mission-post-reminder-0819`
-  Caption: "Palmer's been doing this a while now. Brewery cards, tail wags, a mission stitched into every visit. That mission is Shepherd's Men and the SHARE Military Initiative at Shepherd Center. They treat post-9/11 veterans living with PTSD and TBI. Last year we raised $300. This year the goal is $5,000 to $10,000, and right now we're starting from zero. Every card handed out, every follow, every dollar moves that number. Donate at the link in bio. #FrenchiesOnTap #ShepherdsMen #ShareMilitaryInitiative" (tags: @shepherdsmen, @shepherdccenter)
 - **2026-08-21 (Fri) — Rosie personality**: `images/gallery/rosie-patio-leash.jpg` — reminder task: `rosie-personality-post-reminder-0821`
   Caption: "Rosie clocked the patio chair leg and decided it was worth investigating. Priorities. 🐾 #FrenchiesOnTap #FrenchBulldog"
 - **2026-08-24 (Mon) — Palmer personality**: `images/gallery/palmer-fireplace-ottoman.jpg` — reminder task: `palmer-personality-post-reminder-0824`
@@ -81,12 +70,16 @@ Note: none of these three could get proper Finder tags written programmatically 
 
 ## Gap flagged
 
-None currently. 2026-08-17 through 2026-09-14 (13 posts: 5 Palmer personality, 4 Rosie personality, 3 mission/brewery, 1 BTS) was staged in full by the 2026-08-15 monthly batch run — see Scheduled above. The recurring monthly task picks up again 2026-09-15 for the next stretch.
+None currently. 2026-08-24 through 2026-09-14 remains staged from the 2026-08-15 monthly batch run — see Scheduled above. The recurring monthly task picks up again 2026-09-15 for the next stretch.
 
-The 2026-07-29 mission/brewery post (flagged above) needs Lindsay to confirm it actually went out — treat that date as an open question, not a confirmed post, until she checks.
+(The 7/29 and 8/14 open questions from earlier were resolved 2026-08-21 — both posted fine, see Posted below.)
 
 ## Posted
 
+- 2026-08-17 — `palmer-sherpa-blanket.jpg` (Palmer personality) — media `18096881414527815` — confirmed via Graph API, queue file wasn't updated at the time
+- 2026-08-14 — `rosie-chair-crazy.jpg` (Rosie personality) — media `18612308428044271` — confirmed via Graph API; the alt-text mismatch flagged on 8/15 was a false alarm, correct photo/caption went out
+- 2026-07-29 — `lazy-guy-distillery-porch.jpg` (Palmer, mission/brewery) — media `18349739881169474` — confirmed via Graph API on 2026-08-21; had been flagged as unresolved since 8/15, actually posted fine
+- 2026-08-19 — `palmer-brewery-cards.jpg` (Palmer, mission/brewery) — media `18118133513313683` — approved via reminder, live go-ahead given in chat; posted with `@shepherdsmen` tag only — `@shepherdccenter` (correct spelling, extra "c") was rejected by the API, per Lindsay likely because Shepherd Center's account isn't set up to allow tagging, not a typo. Skip tagging them on future mission/brewery posts unless that changes.
 - 2026-08-12 — `cobb-craft-beverage-month.jpg` (Palmer, mission/brewery) — media `18117732676913747` — reminder fired at 4:34 PM instead of 10am (app was closed on Lindsay's phone at the scheduled time — scheduled tasks only run while the app is open), approved live in chat once she was back
 - 2026-08-10 — `palmer-colorful-harness.jpg` (Palmer personality) — media `18119029792682243` — approved via reminder, live go-ahead given in chat
 - 2026-08-05 — `cherry-st-brewing.jpg` (Palmer, mission/brewery) — media `18045798458652820` — approved via reminder, live go-ahead given in chat
