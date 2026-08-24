@@ -6,8 +6,6 @@ Verified against actual Instagram post history via the Graph API, not assumption
 
 ## Scheduled (reminder task created, awaiting live go-ahead on the date)
 
-- **2026-08-24 (Mon) — Palmer personality**: `images/gallery/palmer-fireplace-ottoman.jpg` — reminder task: `palmer-personality-post-reminder-0824`
-  Caption: "Palmer holding court by the fireplace like she pays the mortgage here. #FrenchiesOnTap #FrenchBulldog"
 - **2026-08-26 (Wed) — Lindsay BTS** (swapped from mission/brewery this month): `images/gallery/sunday-planning-meeting.jpg` — reminder task: `bts-post-reminder-0826`
   Caption: "Sunday planning meeting, Frenchie edition. Palmer supervised from the armchair. Rosie just wanted into the toy basket. This is basically how every week starts around here. #FrenchiesOnTap"
 - **2026-08-28 (Fri) — Rosie personality**: `images/gallery/rosie-wall-grin.jpg` — reminder task: `rosie-personality-post-reminder-0828`
@@ -74,6 +72,7 @@ None currently. 2026-08-24 through 2026-09-14 remains staged from the 2026-08-15
 
 ## Posted
 
+- 2026-08-24 — `palmer-fireplace-ottoman.jpg` (Palmer personality) — media `18127500943745180` — reminder fired on time (10:00:32 AM) again, but no phone notification reached Lindsay again either — 2nd consecutive miss (see 8/21 too), pattern worth investigating on the notification-delivery side rather than the task-scheduling side; approved live in chat
 - 2026-08-21 — `rosie-patio-leash.jpg` (Rosie personality) — media `18066096860744189` — reminder fired on time (10:00 AM) but the push notification apparently didn't reach Lindsay's phone; approved live in chat once she noticed
 - 2026-08-17 — `palmer-sherpa-blanket.jpg` (Palmer personality) — media `18096881414527815` — confirmed via Graph API, queue file wasn't updated at the time
 - 2026-08-14 — `rosie-chair-crazy.jpg` (Rosie personality) — media `18612308428044271` — confirmed via Graph API; the alt-text mismatch flagged on 8/15 was a false alarm, correct photo/caption went out
