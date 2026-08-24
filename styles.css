@@ -333,6 +333,16 @@ section{padding:72px 0;}
   transform:rotate(-45deg);box-shadow:0 2px 6px rgba(0,0,0,0.35);
 }
 
+/* Cluster badge for towns close enough together (metro Atlanta, mainly)
+   that their pins would otherwise overlap into one indistinguishable dot.
+   Navy keeps it distinct from red (Adventure Series) and gold (Palmer's Pick). */
+.brand-cluster{
+  display:flex;align-items:center;justify-content:center;
+  width:36px;height:36px;border-radius:50%;
+  background:var(--navy);color:#fff;font-weight:800;font-size:0.9rem;
+  border:3px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,0.35);
+}
+
 .map-legend{
   display:flex;align-items:center;gap:8px;margin:0 0 44px;
   font-size:0.82rem;color:var(--gray);font-weight:600;

@@ -51,14 +51,24 @@
       maxBounds: SOUTHEAST_BOUNDS,
       maxBoundsViscosity: 1.0
     });
-    // maxBounds alone stops panning past the box, but doesn't stop zooming
-    // out past it — that needs an explicit minZoom, computed from the
-    // container's actual size so it isn't a guessed magic number.
-    map.setMinZoom(map.getBoundsZoom(SOUTHEAST_BOUNDS));
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
       maxZoom: 18
     }).addTo(map);
+
+    // Metro Atlanta alone has ~10 towns within a few miles of each other,
+    // while the full map spans three states — at the zoom needed to fit
+    // everything, those nearby pins overlap into what looks like a single
+    // marker. Clustering groups nearby pins into a count badge that splits
+    // apart as you zoom in, instead of letting one pin visually bury the rest.
+    const clusters = L.markerClusterGroup({
+      maxClusterRadius: 45,
+      iconCreateFunction: (cluster) => L.divIcon({
+        html: `<span>${cluster.getChildCount()}</span>`,
+        className: 'brand-cluster',
+        iconSize: [36, 36]
+      })
+    });
 
     const byTown = {};
     breweries.forEach((b) => {
@@ -86,7 +96,7 @@
       </div>`;
 
       const hasSticker = list.some((b) => b.adventureSticker);
-      const marker = L.marker(coords, hasSticker ? { icon: stickerIcon } : {}).addTo(map);
+      const marker = L.marker(coords, hasSticker ? { icon: stickerIcon } : {});
       marker.bindPopup(popupHtml, { maxWidth: 260, maxHeight: 260 });
       // Hover opens on desktop, tap opens on mobile (tap fires 'click').
       // No mouseout-close: it would fire as soon as the cursor leaves the
@@ -95,12 +105,29 @@
       // marker opens or the map background is clicked.
       marker.on('mouseover', () => marker.openPopup());
       marker.on('click', () => marker.openPopup());
+      clusters.addLayer(marker);
     });
 
-    if (bounds.length === 1) {
-      map.setView(bounds[0], 11);
-    } else if (bounds.length) {
-      map.fitBounds(bounds, { padding: [30, 30] });
-    }
+    map.addLayer(clusters);
+
+    // Deferred to the next frame: right after L.map() is constructed, the
+    // page may not have finished laying out yet, so measuring the container
+    // now can read a stale/zero size. That size gets baked into minZoom
+    // permanently (via getBoundsZoom) — read it too early and the map locks
+    // at max zoom forever, which is exactly what produced the "only one pin
+    // visible, can't zoom out" bug. A frame later, layout is guaranteed done.
+    requestAnimationFrame(() => {
+      map.invalidateSize();
+      // maxBounds alone stops panning past the box, but doesn't stop zooming
+      // out past it — that needs an explicit minZoom, computed from the
+      // container's actual size so it isn't a guessed magic number.
+      map.setMinZoom(map.getBoundsZoom(SOUTHEAST_BOUNDS));
+
+      if (bounds.length === 1) {
+        map.setView(bounds[0], 11);
+      } else if (bounds.length) {
+        map.fitBounds(bounds, { padding: [30, 30] });
+      }
+    });
   });
 })();
