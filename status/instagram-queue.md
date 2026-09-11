@@ -18,12 +18,14 @@ Verified against actual Instagram post history via the Graph API, not assumption
   Caption: "Rosie has something to say and it's mostly tongue. 👅🐾 #FrenchiesOnTap #FrenchBulldog"
 - **2026-09-07 (Mon) — Palmer personality**: `images/gallery/palmer-sunbeam-plant.jpg` — reminder task: `palmer-personality-post-reminder-0907`
   Caption: "Palmer found the one sunbeam in the whole house and set up camp. #FrenchiesOnTap #FrenchBulldog"
-- **2026-09-09 (Wed) — mission/brewery**: `images/gallery/palmer-couch-mission-shelf.jpg` — reminder task: `brewery-mission-post-reminder-0909`
+- ~~2026-09-09 (Wed) — mission/brewery~~ **MISSED** — reminder task `brewery-mission-post-reminder-0909` fired (unconfirmed) but no go-ahead was given; notification apparently didn't reach Lindsay again. Swapped to 2026-09-11 below (Lindsay's call, to land the Shepherd's Men post on 9/11 itself).
+- ~~2026-09-11 (Fri) — Rosie personality~~ **MISSED, swapped** — reminder task `rosie-personality-post-reminder-0911` fired (unconfirmed) but no go-ahead was given, same notification pattern. Moved to 2026-09-16 below.
+- **2026-09-11 (Fri, TODAY) — mission/brewery**: `images/gallery/palmer-couch-mission-shelf.jpg` — swapped in from the missed 9/9 slot, deliberately timed to 9/11 — awaiting live go-ahead
   Caption: "Palmer taking a break between brewery stops. That book on the shelf behind her isn't a coincidence — it's the whole reason we started this thing. Every visit, every follow, every dollar goes to Shepherd's Men and the SHARE Military Initiative. More at frenchiesontap.com. #FrenchiesOnTap #FrenchBulldog #ShepherdsMen #SHAREMilitaryInitiative"
-- **2026-09-11 (Fri) — Rosie personality**: `images/gallery/rosie-wall-standing.jpg` — reminder task: `rosie-personality-post-reminder-0911`
-  Caption: "Rosie, mid-zoomie, briefly interrupted for a photo. 🐾 #FrenchiesOnTap #FrenchBulldog"
 - **2026-09-14 (Mon) — Palmer personality**: `images/gallery/palmer-stone-wall.jpg` — reminder task: `palmer-personality-post-reminder-0914`
   Caption: "Palmer surveying her kingdom (the backyard). #FrenchiesOnTap #FrenchBulldog"
+- **2026-09-16 (Wed) — Rosie personality**: `images/gallery/rosie-wall-standing.jpg` — swapped in from the missed 9/11 slot — no reminder task created yet, needs one
+  Caption: "Rosie, mid-zoomie, briefly interrupted for a photo. 🐾 #FrenchiesOnTap #FrenchBulldog"
 
 ## Staged, unassigned (no date/reminder yet — backup inventory)
 
@@ -66,7 +68,9 @@ Note: none of these three could get proper Finder tags written programmatically 
 
 ## Gap flagged
 
-None currently. 2026-08-24 through 2026-09-14 remains staged from the 2026-08-15 monthly batch run — see Scheduled above. The recurring monthly task picks up again 2026-09-15 for the next stretch.
+2026-09-09 and 2026-09-11 reminders both fired without a phone notification reaching Lindsay (same failure as 7/31, 8/21, 8/24 — 5th occurrence). Swapped/rescheduled per Lindsay's call on 2026-09-11; see Scheduled above. **This needs local debugging, not another reactive swap** — open a Claude Code session on Lindsay's Mac and check `/Users/lindsaymiller/.claude/scheduled-tasks/` for whether the task actually fires vs. whether the OS/app just isn't surfacing the notification (app backgrounded, notification permissions, etc.). A remote/cloud session can't see that local state.
+
+2026-09-16 (Wed) has no reminder task yet — needs one created for the swapped-in Rosie post.
 
 (The 7/29 and 8/14 open questions from earlier were resolved 2026-08-21 — both posted fine, see Posted below.)
 
