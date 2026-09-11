@@ -24,7 +24,7 @@ Verified against actual Instagram post history via the Graph API, not assumption
   Caption: "Palmer taking a break between brewery stops. That book on the shelf behind her isn't a coincidence — it's the whole reason we started this thing. Every visit, every follow, every dollar goes to Shepherd's Men and the SHARE Military Initiative. More at frenchiesontap.com. #FrenchiesOnTap #FrenchBulldog #ShepherdsMen #SHAREMilitaryInitiative"
 - **2026-09-14 (Mon) — Palmer personality**: `images/gallery/palmer-stone-wall.jpg` — reminder task: `palmer-personality-post-reminder-0914`
   Caption: "Palmer surveying her kingdom (the backyard). #FrenchiesOnTap #FrenchBulldog"
-- **2026-09-16 (Wed) — Rosie personality**: `images/gallery/rosie-wall-standing.jpg` — swapped in from the missed 9/11 slot — no reminder task created yet, needs one
+- **2026-09-12 (Sat) — Rosie personality**: `images/gallery/rosie-wall-standing.jpg` — swapped in from the missed 9/11 slot, moved up to tomorrow per Lindsay's 9/11 call (supersedes the earlier 9/16 plan) — no reminder task created yet, needs one on Lindsay's local machine
   Caption: "Rosie, mid-zoomie, briefly interrupted for a photo. 🐾 #FrenchiesOnTap #FrenchBulldog"
 
 ## Staged, unassigned (no date/reminder yet — backup inventory)
