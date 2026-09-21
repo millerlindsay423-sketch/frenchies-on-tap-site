@@ -1,0 +1,602 @@
+[
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/barstool-portrait.jpg",
+    "gallery_filename": "barstool-portrait.jpg",
+    "dog": "Rosie",
+    "venue": "",
+    "width": 900,
+    "height": 1600,
+    "aspect_ratio": 0.563,
+    "alt_text": "Rosie holding court on a barstool"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/brewery-chair-beer.jpg",
+    "gallery_filename": "brewery-chair-beer.jpg",
+    "dog": "Palmer",
+    "venue": "Reformation Brewery",
+    "width": 1600,
+    "height": 1600,
+    "aspect_ratio": 1,
+    "alt_text": "Palmer at Reformation Brewery"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/brewery-chair.jpg",
+    "gallery_filename": "brewery-chair.jpg",
+    "dog": "Palmer",
+    "venue": "",
+    "width": 1600,
+    "height": 1200,
+    "aspect_ratio": 1.333,
+    "alt_text": "Palmer perched on a brewery chair"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/cherry-st-brewing.jpg",
+    "gallery_filename": "cherry-st-brewing.jpg",
+    "dog": "Palmer",
+    "venue": "Cherry St Brewing",
+    "width": 1600,
+    "height": 1200,
+    "aspect_ratio": 1.333,
+    "alt_text": "Palmer at Cherry St Brewing"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/cobb-craft-beverage-month.jpg",
+    "gallery_filename": "cobb-craft-beverage-month.jpg",
+    "dog": "Palmer",
+    "venue": "",
+    "width": 1200,
+    "height": 1600,
+    "aspect_ratio": 0.75,
+    "alt_text": "Palmer at a patio table during Cobb Craft Beverage Month"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/donor-meetup.jpg",
+    "gallery_filename": "donor-meetup.jpg",
+    "dog": "Palmer",
+    "venue": "",
+    "width": 1600,
+    "height": 1200,
+    "aspect_ratio": 1.333,
+    "alt_text": "Palmer with two visitors on a bench"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/girls-together.jpg",
+    "gallery_filename": "girls-together.jpg",
+    "dog": "Both",
+    "venue": "",
+    "width": 1200,
+    "height": 1600,
+    "aspect_ratio": 0.75,
+    "alt_text": "Palmer and Rosie running through the yard, headed out"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/horned-owl-palmer.jpg",
+    "gallery_filename": "horned-owl-palmer.jpg",
+    "dog": "Palmer",
+    "venue": "Horned Owl Brewing",
+    "width": 1200,
+    "height": 1600,
+    "aspect_ratio": 0.75,
+    "alt_text": "Palmer supervising quality control at Horned Owl Brewing"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/horned-owl-taps.jpg",
+    "gallery_filename": "horned-owl-taps.jpg",
+    "dog": "Palmer",
+    "venue": "Horned Owl Brewing",
+    "width": 1128,
+    "height": 1600,
+    "aspect_ratio": 0.705,
+    "alt_text": "Palmer taking in the taps at Horned Owl Brewing"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/lazy-guy-distillery-porch.jpg",
+    "gallery_filename": "lazy-guy-distillery-porch.jpg",
+    "dog": "Palmer",
+    "venue": "Lazy Guy Distillery",
+    "width": 1600,
+    "height": 1200,
+    "aspect_ratio": 1.333,
+    "alt_text": "Palmer checking out the menu at Lazy Guy Distillery"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/leash-action.jpg",
+    "gallery_filename": "leash-action.jpg",
+    "dog": "Rosie",
+    "venue": "",
+    "width": 900,
+    "height": 1600,
+    "aspect_ratio": 0.563,
+    "alt_text": "Frenchie mid-stride on a brewery patio"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/mug-club-beer.jpg",
+    "gallery_filename": "mug-club-beer.jpg",
+    "dog": "Palmer",
+    "venue": "",
+    "width": 1600,
+    "height": 1200,
+    "aspect_ratio": 1.333,
+    "alt_text": "Palmer keeping an eye on the mug club beer"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/new-website-portrait.jpg",
+    "gallery_filename": "new-website-portrait.jpg",
+    "dog": "Palmer",
+    "venue": "",
+    "width": 1200,
+    "height": 1600,
+    "aspect_ratio": 0.75,
+    "alt_text": "Palmer, the face of the new Frenchies on Tap website"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/off-duty-nap.jpg",
+    "gallery_filename": "off-duty-nap.jpg",
+    "dog": "Both",
+    "venue": "",
+    "width": 1600,
+    "height": 1200,
+    "aspect_ratio": 1.333,
+    "alt_text": "Palmer and Rosie, fully off duty"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/outdoor-closeup.jpg",
+    "gallery_filename": "outdoor-closeup.jpg",
+    "dog": "Palmer",
+    "venue": "",
+    "width": 1200,
+    "height": 1600,
+    "aspect_ratio": 0.75,
+    "alt_text": "Close-up of Palmer outdoors"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/outdoor-table.jpg",
+    "gallery_filename": "outdoor-table.jpg",
+    "dog": "Palmer",
+    "venue": "",
+    "width": 1600,
+    "height": 1200,
+    "aspect_ratio": 1.333,
+    "alt_text": "Palmer at an outdoor brewery table"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/palmer-and-rosie-floor.jpg",
+    "gallery_filename": "palmer-and-rosie-floor.jpg",
+    "dog": "Both",
+    "venue": "",
+    "width": 1600,
+    "height": 1200,
+    "aspect_ratio": 1.333,
+    "alt_text": "Palmer and Rosie sprawled out at home"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/palmer-bar-interrogation.jpg",
+    "gallery_filename": "palmer-bar-interrogation.jpg",
+    "dog": "Palmer",
+    "venue": "",
+    "width": 3024,
+    "height": 4032,
+    "aspect_ratio": 0.75,
+    "alt_text": "Palmer working the room at the bar"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/palmer-brewery-cards.jpg",
+    "gallery_filename": "palmer-brewery-cards.jpg",
+    "dog": "Palmer",
+    "venue": "",
+    "width": 1153,
+    "height": 2048,
+    "aspect_ratio": 0.563,
+    "alt_text": "Palmer on the porch, ready to hand out brewery cards"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/palmer-colorful-harness.jpg",
+    "gallery_filename": "palmer-colorful-harness.jpg",
+    "dog": "Palmer",
+    "venue": "",
+    "width": 768,
+    "height": 1024,
+    "aspect_ratio": 0.75,
+    "alt_text": "Palmer in her colorful harness"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/palmer-couch-mission-shelf.jpg",
+    "gallery_filename": "palmer-couch-mission-shelf.jpg",
+    "dog": "Palmer",
+    "venue": "",
+    "width": 1250,
+    "height": 1666,
+    "aspect_ratio": 0.75,
+    "alt_text": "Palmer on the couch, Shepherd's Men book on the shelf behind her"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/palmer-dining-chair.jpg",
+    "gallery_filename": "palmer-dining-chair.jpg",
+    "dog": "Palmer",
+    "venue": "",
+    "width": 3024,
+    "height": 4032,
+    "aspect_ratio": 0.75,
+    "alt_text": "Palmer standing tall on a dining chair"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/palmer-fireplace-ottoman.jpg",
+    "gallery_filename": "palmer-fireplace-ottoman.jpg",
+    "dog": "Palmer",
+    "venue": "",
+    "width": 3024,
+    "height": 4032,
+    "aspect_ratio": 0.75,
+    "alt_text": "Palmer sitting pretty on the ottoman by the fireplace"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/palmer-mid-thought.jpg",
+    "gallery_filename": "palmer-mid-thought.jpg",
+    "dog": "Palmer",
+    "venue": "",
+    "width": 1600,
+    "height": 900,
+    "aspect_ratio": 1.778,
+    "alt_text": "Palmer, mid-thought in the backyard"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/palmer-patio-alert.jpg",
+    "gallery_filename": "palmer-patio-alert.jpg",
+    "dog": "Palmer",
+    "venue": "",
+    "width": 1600,
+    "height": 1200,
+    "aspect_ratio": 1.333,
+    "alt_text": "Palmer on high alert on the patio"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/palmer-porch-breeze.jpg",
+    "gallery_filename": "palmer-porch-breeze.jpg",
+    "dog": "Palmer",
+    "venue": "",
+    "width": 1200,
+    "height": 1600,
+    "aspect_ratio": 0.75,
+    "alt_text": "Palmer catching a breeze on the porch"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/palmer-porch-lick.jpg",
+    "gallery_filename": "palmer-porch-lick.jpg",
+    "dog": "Palmer",
+    "venue": "",
+    "width": 1200,
+    "height": 1600,
+    "aspect_ratio": 0.75,
+    "alt_text": "Palmer mid-lick on the porch"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/palmer-porch-stool.jpg",
+    "gallery_filename": "palmer-porch-stool.jpg",
+    "dog": "Palmer",
+    "venue": "",
+    "width": 1200,
+    "height": 1600,
+    "aspect_ratio": 0.75,
+    "alt_text": "Palmer on a porch stool with her cooling mat"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/palmer-puzzle-chair.jpg",
+    "gallery_filename": "palmer-puzzle-chair.jpg",
+    "dog": "Palmer",
+    "venue": "",
+    "width": 1200,
+    "height": 1600,
+    "aspect_ratio": 0.75,
+    "alt_text": "Palmer on a dining chair, ready for puzzle night"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/palmer-puzzle-night.jpg",
+    "gallery_filename": "palmer-puzzle-night.jpg",
+    "dog": "Palmer",
+    "venue": "",
+    "width": 1200,
+    "height": 1600,
+    "aspect_ratio": 0.75,
+    "alt_text": "Palmer keeping watch while the puzzle gets built"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/palmer-red-harness-patio.jpg",
+    "gallery_filename": "palmer-red-harness-patio.jpg",
+    "dog": "Palmer",
+    "venue": "",
+    "width": 2048,
+    "height": 1153,
+    "aspect_ratio": 1.776,
+    "alt_text": "Palmer working the brewery patio in her red harness"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/palmer-sherpa-blanket.jpg",
+    "gallery_filename": "palmer-sherpa-blanket.jpg",
+    "dog": "Palmer",
+    "venue": "",
+    "width": 3024,
+    "height": 4032,
+    "aspect_ratio": 0.75,
+    "alt_text": "Palmer curled up on the sherpa blanket with her antler chew"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/palmer-stone-wall.jpg",
+    "gallery_filename": "palmer-stone-wall.jpg",
+    "dog": "Palmer",
+    "venue": "",
+    "width": 3024,
+    "height": 4032,
+    "aspect_ratio": 0.75,
+    "alt_text": "Palmer perched on the backyard stone wall"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/palmer-sunbeam-plant.jpg",
+    "gallery_filename": "palmer-sunbeam-plant.jpg",
+    "dog": "Palmer",
+    "venue": "",
+    "width": 3024,
+    "height": 4032,
+    "aspect_ratio": 0.75,
+    "alt_text": "Palmer catching a sunbeam by the houseplant"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/pink-drink.jpg",
+    "gallery_filename": "pink-drink.jpg",
+    "dog": "Palmer",
+    "venue": "",
+    "width": 1600,
+    "height": 1200,
+    "aspect_ratio": 1.333,
+    "alt_text": "Palmer with a pink drink garnish"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/porch-table.jpg",
+    "gallery_filename": "porch-table.jpg",
+    "dog": "Rosie",
+    "venue": "",
+    "width": 1200,
+    "height": 1600,
+    "aspect_ratio": 0.75,
+    "alt_text": "Rosie on a porch table"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/portrait-leash.jpg",
+    "gallery_filename": "portrait-leash.jpg",
+    "dog": "Palmer",
+    "venue": "",
+    "width": 1200,
+    "height": 1600,
+    "aspect_ratio": 0.75,
+    "alt_text": "Palmer on a leash, looking up"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/reformation-brewery-kegs.jpg",
+    "gallery_filename": "reformation-brewery-kegs.jpg",
+    "dog": "Palmer",
+    "venue": "Reformation Brewery",
+    "width": 839,
+    "height": 1600,
+    "aspect_ratio": 0.524,
+    "alt_text": "The Frenchie next to the kegs at Reformation Brewery"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/rosie-bed-stare.jpg",
+    "gallery_filename": "rosie-bed-stare.jpg",
+    "dog": "Rosie",
+    "venue": "",
+    "width": 1200,
+    "height": 1600,
+    "aspect_ratio": 0.75,
+    "alt_text": "Rosie looking up from the bed, wide-eyed"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/rosie-bedtime-peek.jpg",
+    "gallery_filename": "rosie-bedtime-peek.jpg",
+    "dog": "Rosie",
+    "venue": "",
+    "width": 1200,
+    "height": 1600,
+    "aspect_ratio": 0.75,
+    "alt_text": "Rosie peeking over the blanket at bedtime"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/rosie-chair-crazy.jpg",
+    "gallery_filename": "rosie-chair-crazy.jpg",
+    "dog": "Rosie",
+    "venue": "",
+    "width": 430,
+    "height": 500,
+    "aspect_ratio": 0.86,
+    "alt_text": "Rosie's close-up derpy grin"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/rosie-deck-nap.jpg",
+    "gallery_filename": "rosie-deck-nap.jpg",
+    "dog": "Rosie",
+    "venue": "",
+    "width": 1200,
+    "height": 1600,
+    "aspect_ratio": 0.75,
+    "alt_text": "Rosie napping in the sun on the deck"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/rosie-deck-side-table.jpg",
+    "gallery_filename": "rosie-deck-side-table.jpg",
+    "dog": "Rosie",
+    "venue": "",
+    "width": 1200,
+    "height": 1600,
+    "aspect_ratio": 0.75,
+    "alt_text": "Rosie surveying the deck from a side table"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/rosie-floor-sit.jpg",
+    "gallery_filename": "rosie-floor-sit.jpg",
+    "dog": "Rosie",
+    "venue": "",
+    "width": 1200,
+    "height": 1600,
+    "aspect_ratio": 0.75,
+    "alt_text": "Rosie sitting at attention on the hardwood"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/rosie-full-stare.jpg",
+    "gallery_filename": "rosie-full-stare.jpg",
+    "dog": "Rosie",
+    "venue": "",
+    "width": 1200,
+    "height": 1600,
+    "aspect_ratio": 0.75,
+    "alt_text": "Rosie giving the full stare from a cafe table"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/rosie-gym-floor.jpg",
+    "gallery_filename": "rosie-gym-floor.jpg",
+    "dog": "Rosie",
+    "venue": "",
+    "width": 1200,
+    "height": 1600,
+    "aspect_ratio": 0.75,
+    "alt_text": "Rosie sitting pretty next to the dumbbell rack"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/rosie-party-hat.jpg",
+    "gallery_filename": "rosie-party-hat.jpg",
+    "dog": "Rosie",
+    "venue": "",
+    "width": 1200,
+    "height": 1600,
+    "aspect_ratio": 0.75,
+    "alt_text": "Rosie, dressed for the occasion as usual"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/rosie-patio-leash.jpg",
+    "gallery_filename": "rosie-patio-leash.jpg",
+    "dog": "Rosie",
+    "venue": "",
+    "width": 1200,
+    "height": 1600,
+    "aspect_ratio": 0.75,
+    "alt_text": "Rosie side-eyeing the camera from her patio spot"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/rosie-porch-lounge.jpg",
+    "gallery_filename": "rosie-porch-lounge.jpg",
+    "dog": "Rosie",
+    "venue": "",
+    "width": 1200,
+    "height": 1600,
+    "aspect_ratio": 0.75,
+    "alt_text": "Rosie stretched out on the porch boards"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/rosie-sleepy-tongue.jpg",
+    "gallery_filename": "rosie-sleepy-tongue.jpg",
+    "dog": "Rosie",
+    "venue": "",
+    "width": 1600,
+    "height": 1200,
+    "aspect_ratio": 1.333,
+    "alt_text": "Rosie, fully asleep with her tongue out"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/rosie-staircase-lounge.jpg",
+    "gallery_filename": "rosie-staircase-lounge.jpg",
+    "dog": "Rosie",
+    "venue": "",
+    "width": 1200,
+    "height": 1600,
+    "aspect_ratio": 0.75,
+    "alt_text": "Rosie draped across the staircase like she owns it"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/rosie-tongue-closeup.jpg",
+    "gallery_filename": "rosie-tongue-closeup.jpg",
+    "dog": "Rosie",
+    "venue": "",
+    "width": 3024,
+    "height": 4032,
+    "aspect_ratio": 0.75,
+    "alt_text": "Rosie's close-up, tongue fully committed"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/rosie-tongue-out.jpg",
+    "gallery_filename": "rosie-tongue-out.jpg",
+    "dog": "Rosie",
+    "venue": "",
+    "width": 4284,
+    "height": 5712,
+    "aspect_ratio": 0.75,
+    "alt_text": "Rosie mid tongue-out"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/rosie-treat-alert.jpg",
+    "gallery_filename": "rosie-treat-alert.jpg",
+    "dog": "Rosie",
+    "venue": "",
+    "width": 1200,
+    "height": 1600,
+    "aspect_ratio": 0.75,
+    "alt_text": "Rosie, all ears and ready for treats"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/rosie-wall-grin.jpg",
+    "gallery_filename": "rosie-wall-grin.jpg",
+    "dog": "Rosie",
+    "venue": "",
+    "width": 3024,
+    "height": 4032,
+    "aspect_ratio": 0.75,
+    "alt_text": "Rosie grinning ear to ear on the backyard wall"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/rosie-wall-standing.jpg",
+    "gallery_filename": "rosie-wall-standing.jpg",
+    "dog": "Rosie",
+    "venue": "",
+    "width": 3024,
+    "height": 4032,
+    "aspect_ratio": 0.75,
+    "alt_text": "Rosie standing tall on the wall, tongue out"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/stool-drink.jpg",
+    "gallery_filename": "stool-drink.jpg",
+    "dog": "Rosie",
+    "venue": "",
+    "width": 1600,
+    "height": 1200,
+    "aspect_ratio": 1.333,
+    "alt_text": "Rosie on a bar stool with a colorful drink"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/sunday-planning-meeting.jpg",
+    "gallery_filename": "sunday-planning-meeting.jpg",
+    "dog": "Both",
+    "venue": "",
+    "width": 3024,
+    "height": 4032,
+    "aspect_ratio": 0.75,
+    "alt_text": "Palmer and Rosie at the Sunday planning meeting, Frenchie edition"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/table-drink.jpg",
+    "gallery_filename": "table-drink.jpg",
+    "dog": "Palmer",
+    "venue": "",
+    "width": 1600,
+    "height": 1200,
+    "aspect_ratio": 1.333,
+    "alt_text": "Palmer next to a brewery drink"
+  },
+  {
+    "public_url": "https://frenchiesontap.com/images/gallery/yard-ball-chase.jpg",
+    "gallery_filename": "yard-ball-chase.jpg",
+    "dog": "Both",
+    "venue": "",
+    "width": 1200,
+    "height": 1600,
+    "aspect_ratio": 0.75,
+    "alt_text": "Palmer clocking the camera while Rosie goes for the ball"
+  }
+]

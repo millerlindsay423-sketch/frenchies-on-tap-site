@@ -62,3 +62,6 @@ const updated = html.replace(CLOSE_MARKER, `${newTile}${CLOSE_MARKER}`);
 fs.writeFileSync(GALLERY_HTML, updated);
 
 console.log('Added new tile to gallery.html');
+
+// Keep /gallery-manifest.json in sync with the gallery.
+execFileSync('node', [path.join(__dirname, 'build-gallery-manifest.js')], { stdio: 'inherit' });

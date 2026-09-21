@@ -15,6 +15,7 @@ Brand voice: warm, a little playful, mission-forward but not preachy. Look at ex
 - `incoming/` — drop zone for brand-new photos before they're sorted in.
 - **Dog identity via Finder color tags**: Lindsay tags photos in Finder — Red = Palmer, Orange = Rosie, Yellow = both together. Check with `mdls -raw -name kMDItemUserTags "<file>"`. Don't guess identity from the photo alone when a tag is available; when no tag exists, ask rather than assume — Palmer and Rosie are hard to tell apart visually.
 - `scripts/add-to-gallery.js` — copies a photo into `images/gallery/`, converting HEIC/HEIF to JPG via macOS `sips` if needed, and adds the corresponding tile to `gallery.html`.
+- `gallery-manifest.json` (repo root, served at `/gallery-manifest.json`) — machine-readable list of every gallery photo (URL, dog, venue, pixel dimensions, aspect ratio, alt text). `add-to-gallery.js` regenerates it automatically; if gallery photos are added or changed any other way (manual copy, gallery.html edits, photo swaps), run `node scripts/build-gallery-manifest.js` and commit the result.
 
 ## Instagram posting
 
