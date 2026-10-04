@@ -90,7 +90,7 @@ function breweryPage(b) {
     </a>
     <div class="nav-links">
       <a href="../index.html">Home</a>
-      <a href="../brewery-directory.html" class="active">Brewery Directory</a>
+      <a href="../brewery-directory.html" class="active">Pitstop Directory</a>
       <a href="../about.html">About</a>
       <a href="../gallery.html">Gallery</a>
       <a href="../merch.html">Merch</a>
@@ -129,7 +129,7 @@ ${reviewParagraphs}
       <div class="foot-col">
         <h5>Explore</h5>
         <a href="../index.html">Home</a>
-        <a href="../brewery-directory.html">Brewery Directory</a>
+        <a href="../brewery-directory.html">Pitstop Directory</a>
         <a href="../about.html">About</a>
         <a href="../gallery.html">Gallery</a>
         <a href="../merch.html">Merch</a>
