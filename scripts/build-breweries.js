@@ -49,6 +49,7 @@ function buildDirectory() {
   html = html.replace('<!--GA-CARDS-->', byState.Georgia.map(directoryCard).join('\n'));
   html = html.replace('<!--NC-CARDS-->', byState['North Carolina'].map(directoryCard).join('\n'));
   html = html.replace('<!--TN-CARDS-->', byState.Tennessee.map(directoryCard).join('\n'));
+  html = html.replace(/<!--COUNT-->/g, String(breweries.length));
   fs.writeFileSync(path.join(ROOT, 'brewery-directory.html'), html);
   console.log('Directory updated with', breweries.length, 'breweries.');
 }
