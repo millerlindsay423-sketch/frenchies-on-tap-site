@@ -97,7 +97,8 @@
       "horned-owl-brewing-7.jpg"
     ],
     "logo": "horned-owl-brewing-logo.png",
-    "adventureSticker": true
+    "adventureSticker": true,
+    "stickerNumber": "002"
   },
   {
     "slug": "lazy-guy-distillery",
@@ -120,7 +121,8 @@
       "lazy-guy-distillery-6.jpg"
     ],
     "logo": "lazy-guy-distillery-logo.jpg",
-    "adventureSticker": true
+    "adventureSticker": true,
+    "stickerNumber": "001"
   },
   {
     "slug": "mutation-brewing",
@@ -486,7 +488,8 @@
       "buckbald-brewing-2.jpg"
     ],
     "logo": "buckbald-brewing-logo.jpg",
-    "adventureSticker": true
+    "adventureSticker": true,
+    "stickerNumber": "003"
   },
   {
     "slug": "copperhill-brewing",

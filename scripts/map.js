@@ -78,10 +78,13 @@
     });
 
     const bounds = [];
+    const stickerMarkers = [];
     Object.keys(byTown).forEach((town) => {
       const coords = towns[town];
       bounds.push(coords);
-      const list = byTown[town];
+      // Sticker venues first, in sticker-number order (No. 001 before 002).
+      const list = byTown[town].slice().sort((x, y) =>
+        (x.stickerNumber || '999').localeCompare(y.stickerNumber || '999'));
 
       const popupHtml = `<div class="map-popup">
         <div class="map-popup-town">${town}</div>
@@ -90,7 +93,7 @@
             <div class="map-popup-name">${b.name}</div>
             <div class="map-popup-paws">${paws(b.rating)}</div>
             <p class="map-popup-quip">&ldquo;${b.quip}&rdquo;</p>
-            ${b.adventureSticker ? '<p class="map-popup-sticker">🎖️ Adventure Series sticker available here</p>' : ''}
+            ${b.adventureSticker ? `<p class="map-popup-sticker">🎖️ Adventure Series sticker${b.stickerNumber ? ` No. ${b.stickerNumber}` : ''} available here</p>` : ''}
             <a class="map-popup-link" href="breweries/${b.slug}.html">Read the review &rarr;</a>
           </div>`).join('')}
       </div>`;
@@ -105,10 +108,20 @@
       // marker opens or the map background is clicked.
       marker.on('mouseover', () => marker.openPopup());
       marker.on('click', () => marker.openPopup());
-      clusters.addLayer(marker);
+      // Sticker pins skip clustering and sit on the map directly, so the red
+      // pin is always visible. Kennesaw (Lazy Guy No. 001 + Horned Owl
+      // No. 002) is deep in the metro Atlanta pack, and clustered it just
+      // vanished into a navy count badge at the default zoom.
+      if (hasSticker) {
+        marker.setZIndexOffset(1000);
+        stickerMarkers.push(marker);
+      } else {
+        clusters.addLayer(marker);
+      }
     });
 
     map.addLayer(clusters);
+    stickerMarkers.forEach((m) => m.addTo(map));
 
     // Deferred to the next frame: right after L.map() is constructed, the
     // page may not have finished laying out yet, so measuring the container
