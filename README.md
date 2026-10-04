@@ -12,6 +12,8 @@ node scripts/build-breweries.js
 ```
 This regenerates every page in `breweries/` plus the Brewery Directory from that one data file — much safer than hand-editing 37 nearly-identical pages.
 
+**Never hand-edit `brewery-directory.html` or `breweries/*.html` without making the same change in `scripts/templates/` (or `data/breweries.json`).** Those pages get overwritten on every rebuild, so a change made only to the output silently reverts next time. After any rebuild, check `git diff` and confirm only the lines you meant to change moved before committing. (This bit us on 2026-10-04: a stale directory template reverted "Pitstop Directory" and dropped the map's cluster scripts.)
+
 To add a new photo or logo: drop it in `incoming/`, tell Claude Code what it is (which brewery, which dog, etc.), and it'll take care of resizing, renaming, and wiring it into the right page.
 
 See `TODO.md` for what's still unfinished (photos, final logo, donate link, merch prices).
