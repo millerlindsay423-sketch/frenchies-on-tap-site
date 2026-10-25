@@ -14,7 +14,7 @@
   if (seen()) return;
 
   var TEES = [
-    { name: 'Buck Bald Brewing', where: 'Copperhill, TN &amp; Murphy, NC', slug: 'buckbald-brewing', img: 'buck-bald' },
+    { name: 'Buck Bald Brewing', where: 'Murphy, NC', slug: 'buckbald-brewing', img: 'buck-bald' },
     { name: 'Lazy Guy Distillery', where: 'Kennesaw, GA', slug: 'lazy-guy-distillery', img: 'lazy-guy' },
     { name: 'Horned Owl Brewing', where: 'Kennesaw, GA', slug: 'horned-owl-brewing', img: 'horned-owl' }
   ];
@@ -26,9 +26,10 @@
     overlay.innerHTML =
       '<div class="promo" role="dialog" aria-modal="true" aria-labelledby="promo-title">' +
         '<button type="button" class="promo-close" aria-label="Close">&times;</button>' +
-        '<div class="promo-kicker">Collab tees &middot; November only</div>' +
-        '<h2 id="promo-title">Wear the Mission</h2>' +
-        '<p class="promo-blurb">Palmer and Rosie teamed up with 3 of their favorite pitstops on a set of collaboration tees. Every shirt raises money for the SHARE Military Initiative.</p>' +
+        '<div class="promo-kicker">Collab tees &middot; Honoring our veterans</div>' +
+        '<h2 id="promo-title">Wear the Mission.</h2>' +
+        '<div class="promo-sub">Limited-edition collaboration tees</div>' +
+        '<p class="promo-blurb">Palmer and Rosie teamed up with 3 of their favorite pitstops for Veterans Day. <strong>100% of the proceeds benefit the SHARE Military Initiative.</strong></p>' +
         '<div class="promo-tees">' +
           TEES.map(function (t) {
             return '<a class="promo-tee" href="/breweries/' + t.slug + '.html">' +
@@ -36,11 +37,12 @@
               '<strong>' + t.name + '</strong><span>' + t.where + '</span></a>';
           }).join('') +
         '</div>' +
-        '<p class="promo-price"><strong>$30 each.</strong> Pick one up at any of the 3 spots through November 30.</p>' +
+        '<div class="promo-price"><span class="promo-badge">$30</span><span>Each tee is sold in person at its own spot through November 30.</span></div>' +
         '<div class="promo-actions">' +
-          '<a class="btn-primary" href="/brewery-directory.html">Find a pitstop</a>' +
+          '<a class="promo-cta" href="/brewery-directory.html">Find a pitstop</a>' +
           '<button type="button" class="promo-later">Maybe later</button>' +
         '</div>' +
+        '<div class="promo-motto">Brew. Give. Serve.</div>' +
       '</div>';
 
     function close() {
