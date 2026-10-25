@@ -14,8 +14,8 @@
   if (seen()) return;
 
   var TEES = [
-    { name: 'Buck Bald Brewing', where: 'Murphy, NC', slug: 'buckbald-brewing', img: 'buck-bald' },
     { name: 'Lazy Guy Distillery', where: 'Kennesaw, GA', slug: 'lazy-guy-distillery', img: 'lazy-guy' },
+    { name: 'Buck Bald Brewing', where: 'Murphy, NC', slug: 'buckbald-brewing', img: 'buck-bald' },
     { name: 'Horned Owl Brewing', where: 'Kennesaw, GA', slug: 'horned-owl-brewing', img: 'horned-owl' }
   ];
 
