@@ -1,4 +1,5 @@
 const { loadEnv } = require('./env');
+const { recordPost, priorPosts } = require('../record-post');
 loadEnv();
 
 const token = process.env.IG_ACCESS_TOKEN;
@@ -11,6 +12,8 @@ if (tagIndex !== -1) {
   tagUsers = args[tagIndex + 1].split(',').map((u) => u.trim().replace(/^@/, '')).filter(Boolean);
   args.splice(tagIndex, 2);
 }
+const allowRepost = args.includes('--allow-repost');
+if (allowRepost) args.splice(args.indexOf('--allow-repost'), 1);
 
 const [imageUrlArg, ...captionParts] = args;
 const caption = captionParts.join(' ');
@@ -26,6 +29,30 @@ if (!imageUrls.length) {
   console.error('  Multiple comma-separated image URLs publish as a carousel.');
   console.error('  --tag mentions/tags the given usernames on the photo(s).');
   process.exit(1);
+}
+
+// Refuse to repost a gallery photo that's already been posted or scheduled (see data/gallery-sources.json).
+const GALLERY_URL = 'https://frenchiesontap.com/images/gallery/';
+const galleryFiles = imageUrls.filter((u) => u.startsWith(GALLERY_URL)).map((u) => u.slice(GALLERY_URL.length));
+const today = new Date().toLocaleDateString('en-CA');
+// A photo scheduled for today (by batch staging) is the planned post, not a repeat.
+const repeats = galleryFiles.flatMap((f) => priorPosts(f)
+  .filter((p) => !(p.status === 'scheduled' && p.date === today))
+  .map((p) => `  ${f}: ${p.status} ${p.date} via ${p.via}`));
+if (repeats.length && !allowRepost) {
+  console.error('Already posted or scheduled — not posting again:\n' + repeats.join('\n'));
+  console.error('Pick a different photo, or pass --allow-repost if Lindsay explicitly wants a repeat.');
+  process.exit(1);
+}
+
+function recordPublished(mediaId) {
+  for (const f of galleryFiles) {
+    try {
+      recordPost(f, today, { via: 'post.js', mediaId });
+    } catch (err) {
+      console.error(`Posted, but couldn't record ${f}: ${err.message} — run scripts/record-post.js by hand.`);
+    }
+  }
 }
 
 const API = 'https://graph.instagram.com/v21.0';
@@ -87,6 +114,7 @@ async function postSingle() {
   });
 
   console.log(`\nPosted! Media ID: ${published.id}`);
+  recordPublished(published.id);
 }
 
 async function postCarousel() {
@@ -122,6 +150,7 @@ async function postCarousel() {
   });
 
   console.log(`\nPosted! Media ID: ${published.id}`);
+  recordPublished(published.id);
 }
 
 async function main() {

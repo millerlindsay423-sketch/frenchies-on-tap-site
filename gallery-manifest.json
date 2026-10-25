@@ -11,7 +11,12 @@
     "height": 1600,
     "aspect_ratio": 0.563,
     "alt_text": "Rosie holding court on a barstool",
-    "note": "Aspect ratio outside 0.75–1.91: Stories only, not feed."
+    "note": "Aspect ratio outside 0.75–1.91: Stories only, not feed.",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/brewery-chair-beer.jpg",
@@ -25,7 +30,20 @@
     "height": 1600,
     "aspect_ratio": 1,
     "alt_text": "Palmer at Reformation Brewery",
-    "note": ""
+    "note": "",
+    "posted": true,
+    "last_posted_on": "2026-10-14",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": [
+      {
+        "date": "2026-10-14",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "posted",
+        "url": "https://www.instagram.com/p/DeejZW8DVoO/"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/brewery-chair.jpg",
@@ -39,7 +57,12 @@
     "height": 1200,
     "aspect_ratio": 1.333,
     "alt_text": "Palmer perched on a brewery chair",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/cherry-st-brewing.jpg",
@@ -53,7 +76,20 @@
     "height": 1200,
     "aspect_ratio": 1.333,
     "alt_text": "Palmer at Cherry St Brewing",
-    "note": ""
+    "note": "",
+    "posted": true,
+    "last_posted_on": "2026-08-05",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": [
+      {
+        "date": "2026-08-05",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18045798458652820"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/cobb-craft-beverage-month.jpg",
@@ -67,7 +103,20 @@
     "height": 1600,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer at a patio table during Cobb Craft Beverage Month",
-    "note": ""
+    "note": "",
+    "posted": true,
+    "last_posted_on": "2026-08-12",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": [
+      {
+        "date": "2026-08-12",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18117732676913747"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/donor-meetup.jpg",
@@ -81,7 +130,20 @@
     "height": 1200,
     "aspect_ratio": 1.333,
     "alt_text": "Palmer with two visitors on a bench",
-    "note": ""
+    "note": "",
+    "posted": true,
+    "last_posted_on": "2026-10-05",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": [
+      {
+        "date": "2026-10-05",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "posted",
+        "url": "https://www.instagram.com/p/DeHYLyMCsib/"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/girls-together.jpg",
@@ -95,7 +157,12 @@
     "height": 1600,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer and Rosie running through the yard, headed out",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/horned-owl-palmer.jpg",
@@ -109,7 +176,27 @@
     "height": 1600,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer supervising quality control at Horned Owl Brewing",
-    "note": ""
+    "note": "",
+    "posted": true,
+    "last_posted_on": "2026-09-21",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": [
+      {
+        "date": "2026-07-22",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18208915498350386"
+      },
+      {
+        "date": "2026-09-21",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "posted",
+        "url": "https://www.instagram.com/p/DdjVMZMDUuz/"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/horned-owl-taps.jpg",
@@ -123,7 +210,12 @@
     "height": 1600,
     "aspect_ratio": 0.705,
     "alt_text": "Palmer taking in the taps at Horned Owl Brewing",
-    "note": "Aspect ratio outside 0.75–1.91: Stories only, not feed."
+    "note": "Aspect ratio outside 0.75–1.91: Stories only, not feed.",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/lazy-guy-distillery-porch.jpg",
@@ -137,7 +229,27 @@
     "height": 1200,
     "aspect_ratio": 1.333,
     "alt_text": "Palmer checking out the menu at Lazy Guy Distillery",
-    "note": ""
+    "note": "",
+    "posted": true,
+    "last_posted_on": "2026-10-12",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": [
+      {
+        "date": "2026-07-29",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18349739881169474"
+      },
+      {
+        "date": "2026-10-12",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "posted",
+        "url": "https://www.instagram.com/p/DeZZss4iEJM/"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/leash-action.jpg",
@@ -151,7 +263,12 @@
     "height": 1600,
     "aspect_ratio": 0.563,
     "alt_text": "Frenchie mid-stride on a brewery patio",
-    "note": "Aspect ratio outside 0.75–1.91: Stories only, not feed."
+    "note": "Aspect ratio outside 0.75–1.91: Stories only, not feed.",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/mug-club-beer.jpg",
@@ -165,7 +282,20 @@
     "height": 1200,
     "aspect_ratio": 1.333,
     "alt_text": "Palmer keeping an eye on the mug club beer",
-    "note": ""
+    "note": "",
+    "posted": true,
+    "last_posted_on": "2026-10-19",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": [
+      {
+        "date": "2026-10-19",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "posted",
+        "url": "https://www.instagram.com/p/DerbWymiCYi/"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/new-website-portrait.jpg",
@@ -179,7 +309,20 @@
     "height": 1600,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer, the face of the new Frenchies on Tap website",
-    "note": ""
+    "note": "",
+    "posted": true,
+    "last_posted_on": "2026-07-16",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": [
+      {
+        "date": "2026-07-16",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18127008610633755"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/off-duty-nap.jpg",
@@ -193,7 +336,19 @@
     "height": 1200,
     "aspect_ratio": 1.333,
     "alt_text": "Palmer and Rosie, fully off duty",
-    "note": ""
+    "note": "Same photo as palmer-and-rosie-floor.jpg; they share one post history.",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": true,
+    "scheduled_on": "2026-10-28",
+    "posts": [
+      {
+        "date": "2026-10-28",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "scheduled"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/outdoor-closeup.jpg",
@@ -207,7 +362,20 @@
     "height": 1600,
     "aspect_ratio": 0.75,
     "alt_text": "Close-up of Palmer outdoors",
-    "note": ""
+    "note": "Same photo as yard-ball-chase.jpg; they share one post history.",
+    "posted": true,
+    "last_posted_on": "2026-10-07",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": [
+      {
+        "date": "2026-10-07",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "posted",
+        "url": "https://www.instagram.com/p/DeMhu7nDROo/"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/outdoor-table.jpg",
@@ -221,7 +389,12 @@
     "height": 1200,
     "aspect_ratio": 1.333,
     "alt_text": "Palmer at an outdoor brewery table",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-and-rosie-floor.jpg",
@@ -235,7 +408,19 @@
     "height": 1200,
     "aspect_ratio": 1.333,
     "alt_text": "Palmer and Rosie sprawled out at home",
-    "note": "Original not found in ~/Pictures/French Bulldogs."
+    "note": "Original not found in ~/Pictures/French Bulldogs. Same photo as off-duty-nap.jpg; they share one post history.",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": true,
+    "scheduled_on": "2026-10-28",
+    "posts": [
+      {
+        "date": "2026-10-28",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "scheduled"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-bar-interrogation.jpg",
@@ -249,7 +434,26 @@
     "height": 4032,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer working the room at the bar",
-    "note": ""
+    "note": "",
+    "posted": true,
+    "last_posted_on": "2026-07-20",
+    "scheduled": true,
+    "scheduled_on": "2026-10-26",
+    "posts": [
+      {
+        "date": "2026-07-20",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18106945178094724"
+      },
+      {
+        "date": "2026-10-26",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "scheduled"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-bed-closeup.jpg",
@@ -263,7 +467,12 @@
     "height": 2048,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer lounging on the bed, giving the camera her best stare",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-belly-up-cot.jpg",
@@ -277,7 +486,12 @@
     "height": 1536,
     "aspect_ratio": 1.333,
     "alt_text": "Palmer belly-up on her backyard cot",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-brewery-bed-beer.jpg",
@@ -291,7 +505,12 @@
     "height": 1536,
     "aspect_ratio": 1.333,
     "alt_text": "Palmer on a fluffy dog bed under the brewery table, next to a beer",
-    "note": "Likely Buck Bald Brewing (GPS: Murphy, NC); confirm before naming the venue."
+    "note": "Likely Buck Bald Brewing (GPS: Murphy, NC); confirm before naming the venue.",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-brewery-cards.jpg",
@@ -305,7 +524,20 @@
     "height": 2048,
     "aspect_ratio": 0.563,
     "alt_text": "Palmer on the porch, ready to hand out brewery cards",
-    "note": "Aspect ratio outside 0.75–1.91: Stories only, not feed."
+    "note": "Aspect ratio outside 0.75–1.91: Stories only, not feed.",
+    "posted": true,
+    "last_posted_on": "2026-08-19",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": [
+      {
+        "date": "2026-08-19",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18118133513313683"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-colorful-harness.jpg",
@@ -319,7 +551,20 @@
     "height": 1024,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer in her colorful harness",
-    "note": "Original not found in ~/Pictures/French Bulldogs."
+    "note": "Original not found in ~/Pictures/French Bulldogs.",
+    "posted": true,
+    "last_posted_on": "2026-08-10",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": [
+      {
+        "date": "2026-08-10",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18119029792682243"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-couch-mission-shelf.jpg",
@@ -333,7 +578,27 @@
     "height": 1666,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer on the couch, Shepherd's Men book on the shelf behind her",
-    "note": ""
+    "note": "",
+    "posted": true,
+    "last_posted_on": "2026-09-23",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": [
+      {
+        "date": "2026-09-11",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18106245641521547"
+      },
+      {
+        "date": "2026-09-23",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "posted",
+        "url": "https://www.instagram.com/p/Ddoew3YjQNY/"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-dining-chair.jpg",
@@ -347,7 +612,20 @@
     "height": 4032,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer standing tall on a dining chair",
-    "note": ""
+    "note": "",
+    "posted": true,
+    "last_posted_on": "2026-08-31",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": [
+      {
+        "date": "2026-08-31",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18622119685006317"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-fireplace-ottoman.jpg",
@@ -361,7 +639,20 @@
     "height": 4032,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer sitting pretty on the ottoman by the fireplace",
-    "note": ""
+    "note": "",
+    "posted": true,
+    "last_posted_on": "2026-08-24",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": [
+      {
+        "date": "2026-08-24",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18127500943745180"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-gate-city-sign.jpg",
@@ -375,7 +666,12 @@
     "height": 1536,
     "aspect_ratio": 1.333,
     "alt_text": "Palmer posing on a stool under the Gate City Brewing sign",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-harness-look-up.jpg",
@@ -389,7 +685,12 @@
     "height": 2048,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer looking up from the floor in her floral harness",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-holiday-harness-patio.jpg",
@@ -403,7 +704,12 @@
     "height": 2048,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer in her holiday harness, people-watching from a brewery patio",
-    "note": "Venue unknown (GPS: Decatur/Atlanta area)."
+    "note": "Venue unknown (GPS: Decatur/Atlanta area).",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-horned-owl-bar.jpg",
@@ -417,7 +723,12 @@
     "height": 1536,
     "aspect_ratio": 1.333,
     "alt_text": "Palmer pulling up a barstool at Horned Owl Brewing",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-horned-owl-mug.jpg",
@@ -431,7 +742,12 @@
     "height": 2048,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer peeking over a mug club beer at Horned Owl Brewing",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-mid-thought.jpg",
@@ -445,7 +761,20 @@
     "height": 900,
     "aspect_ratio": 1.778,
     "alt_text": "Palmer, mid-thought in the backyard",
-    "note": ""
+    "note": "",
+    "posted": true,
+    "last_posted_on": "2026-07-27",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": [
+      {
+        "date": "2026-07-27",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18192438643361660"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-patio-alert.jpg",
@@ -459,7 +788,20 @@
     "height": 1200,
     "aspect_ratio": 1.333,
     "alt_text": "Palmer on high alert on the patio",
-    "note": ""
+    "note": "",
+    "posted": true,
+    "last_posted_on": "2026-08-03",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": [
+      {
+        "date": "2026-08-03",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18155798989499778"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-pink-harness-tongue.jpg",
@@ -473,7 +815,12 @@
     "height": 2048,
     "aspect_ratio": 0.614,
     "alt_text": "Palmer in a pink harness, tongue out, looking up for a treat",
-    "note": "GPS: Hendersonville, NC area. Aspect ratio outside 0.75–1.91: Stories only, not feed."
+    "note": "GPS: Hendersonville, NC area. Aspect ratio outside 0.75–1.91: Stories only, not feed.",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-pink-pompom-hat.jpg",
@@ -487,7 +834,12 @@
     "height": 2046,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer bundled up in a pink pom-pom hat",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-porch-breeze.jpg",
@@ -501,7 +853,12 @@
     "height": 1600,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer catching a breeze on the porch",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-porch-lick.jpg",
@@ -515,7 +872,12 @@
     "height": 1600,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer mid-lick on the porch",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-porch-stool.jpg",
@@ -529,7 +891,20 @@
     "height": 1600,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer on a porch stool with her cooling mat",
-    "note": ""
+    "note": "",
+    "posted": true,
+    "last_posted_on": "2026-09-30",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": [
+      {
+        "date": "2026-09-30",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "posted",
+        "url": "https://www.instagram.com/p/Dd6gb-zDYEB/"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-puzzle-chair.jpg",
@@ -543,7 +918,12 @@
     "height": 1600,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer on a dining chair, ready for puzzle night",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-puzzle-night.jpg",
@@ -557,7 +937,20 @@
     "height": 1600,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer keeping watch while the puzzle gets built",
-    "note": ""
+    "note": "",
+    "posted": true,
+    "last_posted_on": "2026-10-21",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": [
+      {
+        "date": "2026-10-21",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "posted",
+        "url": "https://www.instagram.com/p/Dewk82oiGLS/"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-red-harness-patio.jpg",
@@ -571,7 +964,20 @@
     "height": 1153,
     "aspect_ratio": 1.776,
     "alt_text": "Palmer working the brewery patio in her red harness",
-    "note": ""
+    "note": "",
+    "posted": true,
+    "last_posted_on": "2026-09-02",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": [
+      {
+        "date": "2026-09-02",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18136950445621436"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-reformation-kegs.jpg",
@@ -585,7 +991,12 @@
     "height": 1536,
     "aspect_ratio": 1.333,
     "alt_text": "Palmer in her red harness checking out the kegs at Reformation Brewery",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-rosie-beanbag.jpg",
@@ -599,7 +1010,12 @@
     "height": 2048,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer and Rosie sharing the beanbag and the superhero blanket",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-rosie-blanket-cuddle.jpg",
@@ -613,7 +1029,12 @@
     "height": 1536,
     "aspect_ratio": 1.333,
     "alt_text": "Palmer and Rosie cuddled up in a knit blanket",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-rosie-fireplace-couch.jpg",
@@ -627,7 +1048,12 @@
     "height": 1536,
     "aspect_ratio": 1.333,
     "alt_text": "Palmer and Rosie napping on the couch by the fireplace",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-rosie-home-gym.jpg",
@@ -641,7 +1067,12 @@
     "height": 2048,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer and Rosie supervising the dumbbells in the home gym",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-rosie-lazy-guy-deck.jpg",
@@ -655,7 +1086,12 @@
     "height": 2048,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer and Rosie stretched out on the deck at Lazy Guy Distillery",
-    "note": "Venue from GPS."
+    "note": "Venue from GPS.",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-rosie-lindsay-cuddle.jpg",
@@ -669,7 +1105,12 @@
     "height": 1536,
     "aspect_ratio": 1.333,
     "alt_text": "Palmer and Rosie piled on Lindsay for a cuddle",
-    "note": "Good Lindsay BTS candidate."
+    "note": "Good Lindsay BTS candidate.",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-rosie-matching-pajamas.jpg",
@@ -683,7 +1124,12 @@
     "height": 2048,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer and Rosie in matching holiday pajamas",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-rosie-side-by-side.jpg",
@@ -697,7 +1143,12 @@
     "height": 2048,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer and Rosie sitting side by side, waiting on a treat",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-rosie-twin-chairs.jpg",
@@ -711,7 +1162,12 @@
     "height": 1152,
     "aspect_ratio": 1.778,
     "alt_text": "Palmer and Rosie on matching chairs with their toys",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-rosie-woofmas-cookie.jpg",
@@ -725,7 +1181,12 @@
     "height": 2048,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer and Rosie eyeing a Woofmas cookie",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-rosie-yard-cot.jpg",
@@ -739,7 +1200,12 @@
     "height": 2048,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer and Rosie sharing the backyard cot and a green ball",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-shepherds-men-growler.jpg",
@@ -753,7 +1219,12 @@
     "height": 2048,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer on a bar bench in front of a Shepherd's Men growler",
-    "note": "Likely Buck Bald Brewing (GPS: Murphy, NC); confirm before naming the venue."
+    "note": "Likely Buck Bald Brewing (GPS: Murphy, NC); confirm before naming the venue.",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-sherpa-blanket.jpg",
@@ -767,7 +1238,20 @@
     "height": 4032,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer curled up on the sherpa blanket with her antler chew",
-    "note": ""
+    "note": "",
+    "posted": true,
+    "last_posted_on": "2026-08-17",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": [
+      {
+        "date": "2026-08-17",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18096881414527815"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-stone-wall.jpg",
@@ -781,7 +1265,12 @@
     "height": 4032,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer perched on the backyard stone wall",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-sunbeam-plant.jpg",
@@ -795,7 +1284,20 @@
     "height": 4032,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer catching a sunbeam by the houseplant",
-    "note": ""
+    "note": "",
+    "posted": true,
+    "last_posted_on": "2026-09-07",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": [
+      {
+        "date": "2026-09-07",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "17983845968878868"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-sunny-deck.jpg",
@@ -809,7 +1311,12 @@
     "height": 2048,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer soaking up the sun on the deck",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-tufted-chair.jpg",
@@ -823,7 +1330,12 @@
     "height": 2048,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer claiming the big tufted chair",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/palmer-valentine-card.jpg",
@@ -837,7 +1349,12 @@
     "height": 2048,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer in her bed next to a handwritten Valentine",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/pink-drink.jpg",
@@ -851,7 +1368,12 @@
     "height": 1200,
     "aspect_ratio": 1.333,
     "alt_text": "Palmer with a pink drink garnish",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/porch-table.jpg",
@@ -865,7 +1387,12 @@
     "height": 1600,
     "aspect_ratio": 0.75,
     "alt_text": "Rosie on a porch table",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/portrait-leash.jpg",
@@ -879,7 +1406,12 @@
     "height": 1600,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer on a leash, looking up",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/reformation-brewery-kegs.jpg",
@@ -893,7 +1425,12 @@
     "height": 1600,
     "aspect_ratio": 0.524,
     "alt_text": "The Frenchie next to the kegs at Reformation Brewery",
-    "note": "Aspect ratio outside 0.75–1.91: Stories only, not feed."
+    "note": "Aspect ratio outside 0.75–1.91: Stories only, not feed.",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/rosie-bed-stare.jpg",
@@ -907,7 +1444,12 @@
     "height": 1600,
     "aspect_ratio": 0.75,
     "alt_text": "Rosie looking up from the bed, wide-eyed",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/rosie-bedtime-peek.jpg",
@@ -921,7 +1463,12 @@
     "height": 1600,
     "aspect_ratio": 0.75,
     "alt_text": "Rosie peeking over the blanket at bedtime",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/rosie-brewery-chair.jpg",
@@ -935,7 +1482,12 @@
     "height": 2048,
     "aspect_ratio": 0.75,
     "alt_text": "Rosie posing on a wooden chair at a brewery",
-    "note": "Venue unknown (GPS: Cumming, GA brewery)."
+    "note": "Venue unknown (GPS: Cumming, GA brewery).",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/rosie-chair-crazy.jpg",
@@ -949,7 +1501,27 @@
     "height": 500,
     "aspect_ratio": 0.86,
     "alt_text": "Rosie's close-up derpy grin",
-    "note": "Original not found in ~/Pictures/French Bulldogs."
+    "note": "Original not found in ~/Pictures/French Bulldogs.",
+    "posted": true,
+    "last_posted_on": "2026-10-23",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": [
+      {
+        "date": "2026-08-14",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18612308428044271"
+      },
+      {
+        "date": "2026-10-23",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "posted",
+        "url": "https://www.instagram.com/p/De1uhXjiO0A/"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/rosie-christmas-blanket.jpg",
@@ -963,7 +1535,12 @@
     "height": 2048,
     "aspect_ratio": 0.75,
     "alt_text": "Rosie with her tongue out on a Christmas blanket",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/rosie-closeup-look-up.jpg",
@@ -977,7 +1554,12 @@
     "height": 2048,
     "aspect_ratio": 0.75,
     "alt_text": "Rosie looking straight up at the camera",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/rosie-deck-nap.jpg",
@@ -991,7 +1573,12 @@
     "height": 1600,
     "aspect_ratio": 0.75,
     "alt_text": "Rosie napping in the sun on the deck",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/rosie-deck-side-table.jpg",
@@ -1005,7 +1592,19 @@
     "height": 1600,
     "aspect_ratio": 0.75,
     "alt_text": "Rosie surveying the deck from a side table",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": true,
+    "scheduled_on": "2026-10-30",
+    "posts": [
+      {
+        "date": "2026-10-30",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "scheduled"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/rosie-donut-pillow.jpg",
@@ -1019,7 +1618,12 @@
     "height": 2048,
     "aspect_ratio": 0.75,
     "alt_text": "Rosie wearing a donut pillow on the porch",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/rosie-floor-sit.jpg",
@@ -1033,7 +1637,12 @@
     "height": 1600,
     "aspect_ratio": 0.75,
     "alt_text": "Rosie sitting at attention on the hardwood",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/rosie-full-stare.jpg",
@@ -1047,7 +1656,20 @@
     "height": 1600,
     "aspect_ratio": 0.75,
     "alt_text": "Rosie giving the full stare from a cafe table",
-    "note": ""
+    "note": "",
+    "posted": true,
+    "last_posted_on": "2026-07-31",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": [
+      {
+        "date": "2026-07-31",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18435036298124340"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/rosie-grass-tongue.jpg",
@@ -1061,7 +1683,12 @@
     "height": 2048,
     "aspect_ratio": 0.75,
     "alt_text": "Rosie flopped in the grass with her tongue out",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/rosie-gym-floor.jpg",
@@ -1075,7 +1702,20 @@
     "height": 1600,
     "aspect_ratio": 0.75,
     "alt_text": "Rosie sitting pretty next to the dumbbell rack",
-    "note": ""
+    "note": "",
+    "posted": true,
+    "last_posted_on": "2026-10-02",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": [
+      {
+        "date": "2026-10-02",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "posted",
+        "url": "https://www.instagram.com/p/Dd_p3HFjZjv/"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/rosie-lakeside.jpg",
@@ -1089,7 +1729,12 @@
     "height": 2048,
     "aspect_ratio": 0.75,
     "alt_text": "Rosie sitting in the grass by the lake",
-    "note": "GPS: near Knoxville, TN."
+    "note": "GPS: near Knoxville, TN.",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/rosie-lazy-guy-stool.jpg",
@@ -1103,7 +1748,12 @@
     "height": 2048,
     "aspect_ratio": 0.564,
     "alt_text": "Rosie on a porch stool by the stained glass at Lazy Guy Distillery",
-    "note": "Venue matched to the stained-glass porch on the Lazy Guy page. Aspect ratio outside 0.75–1.91: Stories only, not feed."
+    "note": "Venue matched to the stained-glass porch on the Lazy Guy page. Aspect ratio outside 0.75–1.91: Stories only, not feed.",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/rosie-lumber-aisle.jpg",
@@ -1117,7 +1767,12 @@
     "height": 2048,
     "aspect_ratio": 0.75,
     "alt_text": "Rosie, tongue out, in the middle of a lumber aisle",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/rosie-party-hat.jpg",
@@ -1131,7 +1786,27 @@
     "height": 1600,
     "aspect_ratio": 0.75,
     "alt_text": "Rosie, dressed for the occasion as usual",
-    "note": ""
+    "note": "",
+    "posted": true,
+    "last_posted_on": "2026-10-16",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": [
+      {
+        "date": "2026-07-17",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "17959745085159324"
+      },
+      {
+        "date": "2026-10-16",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "posted",
+        "url": "https://www.instagram.com/p/Dejs61AiCse/"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/rosie-patio-leash.jpg",
@@ -1145,7 +1820,20 @@
     "height": 1600,
     "aspect_ratio": 0.75,
     "alt_text": "Rosie side-eyeing the camera from her patio spot",
-    "note": ""
+    "note": "",
+    "posted": true,
+    "last_posted_on": "2026-08-21",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": [
+      {
+        "date": "2026-08-21",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18066096860744189"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/rosie-pink-toy.jpg",
@@ -1159,7 +1847,12 @@
     "height": 2048,
     "aspect_ratio": 0.75,
     "alt_text": "Rosie guarding her pink toy in the grass",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/rosie-porch-lounge.jpg",
@@ -1173,7 +1866,12 @@
     "height": 1600,
     "aspect_ratio": 0.75,
     "alt_text": "Rosie stretched out on the porch boards",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/rosie-purple-pompom-hat.jpg",
@@ -1187,7 +1885,12 @@
     "height": 2048,
     "aspect_ratio": 0.75,
     "alt_text": "Rosie in a purple pom-pom hat",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/rosie-sleepy-tongue.jpg",
@@ -1201,7 +1904,12 @@
     "height": 1200,
     "aspect_ratio": 1.333,
     "alt_text": "Rosie, fully asleep with her tongue out",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/rosie-soccer-ball.jpg",
@@ -1215,7 +1923,12 @@
     "height": 2048,
     "aspect_ratio": 0.75,
     "alt_text": "Rosie nose-down on a soccer ball in the yard",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/rosie-staircase-lounge.jpg",
@@ -1229,7 +1942,20 @@
     "height": 1600,
     "aspect_ratio": 0.75,
     "alt_text": "Rosie draped across the staircase like she owns it",
-    "note": ""
+    "note": "",
+    "posted": true,
+    "last_posted_on": "2026-09-25",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": [
+      {
+        "date": "2026-09-25",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "posted",
+        "url": "https://www.instagram.com/p/DdtoX3sjbdm/"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/rosie-tongue-closeup.jpg",
@@ -1243,7 +1969,20 @@
     "height": 4032,
     "aspect_ratio": 0.75,
     "alt_text": "Rosie's close-up, tongue fully committed",
-    "note": ""
+    "note": "",
+    "posted": true,
+    "last_posted_on": "2026-09-04",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": [
+      {
+        "date": "2026-09-04",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "17874512316562760"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/rosie-tongue-out.jpg",
@@ -1257,7 +1996,12 @@
     "height": 5712,
     "aspect_ratio": 0.75,
     "alt_text": "Rosie mid tongue-out",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/rosie-treat-alert.jpg",
@@ -1271,7 +2015,20 @@
     "height": 1600,
     "aspect_ratio": 0.75,
     "alt_text": "Rosie, all ears and ready for treats",
-    "note": ""
+    "note": "",
+    "posted": true,
+    "last_posted_on": "2026-07-24",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": [
+      {
+        "date": "2026-07-24",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18096446945211407"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/rosie-under-her-portrait.jpg",
@@ -1285,7 +2042,12 @@
     "height": 2048,
     "aspect_ratio": 0.75,
     "alt_text": "Rosie sitting under a painted portrait of herself",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/rosie-unicorn-hat.jpg",
@@ -1299,7 +2061,12 @@
     "height": 2048,
     "aspect_ratio": 0.75,
     "alt_text": "Rosie in a knit unicorn hat",
-    "note": "A man is in the frame."
+    "note": "A man is in the frame.",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/rosie-wall-grin.jpg",
@@ -1313,7 +2080,20 @@
     "height": 4032,
     "aspect_ratio": 0.75,
     "alt_text": "Rosie grinning ear to ear on the backyard wall",
-    "note": ""
+    "note": "",
+    "posted": true,
+    "last_posted_on": "2026-10-09",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": [
+      {
+        "date": "2026-10-09",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "posted",
+        "url": "https://www.instagram.com/p/DeRrV52jS3T/"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/rosie-wall-standing.jpg",
@@ -1327,7 +2107,12 @@
     "height": 4032,
     "aspect_ratio": 0.75,
     "alt_text": "Rosie standing tall on the wall, tongue out",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/rosie-yard-ball.jpg",
@@ -1341,7 +2126,12 @@
     "height": 1880,
     "aspect_ratio": 1.089,
     "alt_text": "Rosie trotting through the yard with her ball",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/stool-drink.jpg",
@@ -1355,7 +2145,12 @@
     "height": 1200,
     "aspect_ratio": 1.333,
     "alt_text": "Rosie on a bar stool with a colorful drink",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/sunday-planning-meeting.jpg",
@@ -1369,7 +2164,20 @@
     "height": 4032,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer and Rosie at the Sunday planning meeting, Frenchie edition",
-    "note": ""
+    "note": "",
+    "posted": true,
+    "last_posted_on": "2026-08-26",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": [
+      {
+        "date": "2026-08-26",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18105945020272596"
+      }
+    ]
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/table-drink.jpg",
@@ -1383,7 +2191,12 @@
     "height": 1200,
     "aspect_ratio": 1.333,
     "alt_text": "Palmer next to a brewery drink",
-    "note": ""
+    "note": "",
+    "posted": false,
+    "last_posted_on": "",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": []
   },
   {
     "public_url": "https://frenchiesontap.com/images/gallery/yard-ball-chase.jpg",
@@ -1397,6 +2210,19 @@
     "height": 1600,
     "aspect_ratio": 0.75,
     "alt_text": "Palmer clocking the camera while Rosie goes for the ball",
-    "note": "Original not found in ~/Pictures/French Bulldogs."
+    "note": "Original not found in ~/Pictures/French Bulldogs. Same photo as outdoor-closeup.jpg; they share one post history.",
+    "posted": true,
+    "last_posted_on": "2026-10-07",
+    "scheduled": false,
+    "scheduled_on": "",
+    "posts": [
+      {
+        "date": "2026-10-07",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "posted",
+        "url": "https://www.instagram.com/p/DeMhu7nDROo/"
+      }
+    ]
   }
 ]

@@ -61,6 +61,12 @@ const manifest = files.map((f) => {
   const ratio = +(w / h).toFixed(3);
   const notes = [src.note || (src.source_filename ? '' : 'Original not found in ~/Pictures/French Bulldogs.')];
   if (ratio < 0.75 || ratio > 1.91) notes.push('Aspect ratio outside 0.75–1.91: Stories only, not feed.');
+  if (src.same_as) notes.push(`Same photo as ${src.same_as}; they share one post history.`);
+  // A post of an identical copy counts as a post of this photo too.
+  const posts = [...(src.posts || []), ...((sources[src.same_as] || {}).posts || [])]
+    .sort((a, b) => a.date.localeCompare(b.date));
+  const published = posts.filter((p) => p.status === 'posted');
+  const scheduled = posts.filter((p) => p.status === 'scheduled');
   return {
     public_url: BASE_URL + f,
     gallery_filename: f,
@@ -74,6 +80,12 @@ const manifest = files.map((f) => {
     aspect_ratio: ratio,
     alt_text: alt || '',
     note: notes.filter(Boolean).join(' '),
+    // Anything picking photos for social should skip entries where posted or scheduled is true.
+    posted: published.length > 0,
+    last_posted_on: published.length ? published[published.length - 1].date : '',
+    scheduled: scheduled.length > 0,
+    scheduled_on: scheduled.length ? scheduled[0].date : '',
+    posts,
   };
 });
 

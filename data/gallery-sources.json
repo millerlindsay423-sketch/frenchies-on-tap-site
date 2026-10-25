@@ -4,671 +4,1114 @@
     "source_path": "~/Pictures/French Bulldogs/2676123786053519607.jpeg",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "brewery-chair-beer.jpg": {
     "source_filename": "2C1FAB97-AE54-41C6-A642-E49E1EA891F2.jpeg",
     "source_path": "~/Pictures/French Bulldogs/2C1FAB97-AE54-41C6-A642-E49E1EA891F2.jpeg",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-10-14",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "posted",
+        "url": "https://www.instagram.com/p/DeejZW8DVoO/"
+      }
+    ]
   },
   "brewery-chair.jpg": {
     "source_filename": "IMG_2713.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_2713.heic",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "cherry-st-brewing.jpg": {
     "source_filename": "IMG_5293.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_5293.heic",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-08-05",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18045798458652820"
+      }
+    ]
   },
   "cobb-craft-beverage-month.jpg": {
     "source_filename": "IMG_4638.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_4638.heic",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-08-12",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18117732676913747"
+      }
+    ]
   },
   "donor-meetup.jpg": {
     "source_filename": "IMG_4882.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_4882.heic",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-10-05",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "posted",
+        "url": "https://www.instagram.com/p/DeHYLyMCsib/"
+      }
+    ]
   },
   "girls-together.jpg": {
     "source_filename": "6185076236722316098.jpeg",
     "source_path": "~/Pictures/French Bulldogs/6185076236722316098.jpeg",
     "finder_color_tag": "Yellow",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "horned-owl-palmer.jpg": {
     "source_filename": "IMG_4637.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_4637.heic",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-07-22",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18208915498350386"
+      },
+      {
+        "date": "2026-09-21",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "posted",
+        "url": "https://www.instagram.com/p/DdjVMZMDUuz/"
+      }
+    ]
   },
   "horned-owl-taps.jpg": {
     "source_filename": "IMG_2603.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_2603.heic",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "lazy-guy-distillery-porch.jpg": {
     "source_filename": "IMG_3096.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_3096.heic",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-07-29",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18349739881169474"
+      },
+      {
+        "date": "2026-10-12",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "posted",
+        "url": "https://www.instagram.com/p/DeZZss4iEJM/"
+      }
+    ]
   },
   "leash-action.jpg": {
     "source_filename": "4226527351194655854.jpeg",
     "source_path": "~/Pictures/French Bulldogs/4226527351194655854.jpeg",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "mug-club-beer.jpg": {
     "source_filename": "IMG_2716.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_2716.heic",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-10-19",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "posted",
+        "url": "https://www.instagram.com/p/DerbWymiCYi/"
+      }
+    ]
   },
   "new-website-portrait.jpg": {
     "source_filename": "IMG_4013.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_4013.heic",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-07-16",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18127008610633755"
+      }
+    ]
   },
   "off-duty-nap.jpg": {
     "source_filename": "IMG_0035.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_0035.heic",
     "finder_color_tag": "Yellow",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-10-28",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "scheduled"
+      }
+    ],
+    "same_as": "palmer-and-rosie-floor.jpg"
   },
   "outdoor-closeup.jpg": {
     "source_filename": "9299.jpeg",
     "source_path": "~/Pictures/French Bulldogs/9299.jpeg",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-10-07",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "posted",
+        "url": "https://www.instagram.com/p/DeMhu7nDROo/"
+      }
+    ],
+    "same_as": "yard-ball-chase.jpg"
   },
   "outdoor-table.jpg": {
     "source_filename": "IMG_3090.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_3090.heic",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
+  },
+  "palmer-and-rosie-floor.jpg": {
+    "source_filename": "",
+    "source_path": "",
+    "finder_color_tag": "",
+    "venue": "",
+    "note": "",
+    "posts": [],
+    "same_as": "off-duty-nap.jpg"
   },
   "palmer-bar-interrogation.jpg": {
     "source_filename": "IMG_0351.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_0351.heic",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-07-20",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18106945178094724"
+      },
+      {
+        "date": "2026-10-26",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "scheduled"
+      }
+    ]
   },
   "palmer-bed-closeup.jpg": {
     "source_filename": "IMG_5541.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_5541.heic",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "palmer-belly-up-cot.jpg": {
     "source_filename": "1939255443053936273.jpeg",
     "source_path": "~/Pictures/French Bulldogs/1939255443053936273.jpeg",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "palmer-brewery-bed-beer.jpg": {
     "source_filename": "IMG_2410.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_2410.heic",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": "Likely Buck Bald Brewing (GPS: Murphy, NC); confirm before naming the venue."
+    "note": "Likely Buck Bald Brewing (GPS: Murphy, NC); confirm before naming the venue.",
+    "posts": []
   },
   "palmer-brewery-cards.jpg": {
     "source_filename": "609.jpeg",
     "source_path": "~/Pictures/French Bulldogs/609.jpeg",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-08-19",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18118133513313683"
+      }
+    ]
+  },
+  "palmer-colorful-harness.jpg": {
+    "source_filename": "",
+    "source_path": "",
+    "finder_color_tag": "",
+    "venue": "",
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-08-10",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18119029792682243"
+      }
+    ]
   },
   "palmer-couch-mission-shelf.jpg": {
     "source_filename": "output_image1723911843162.jpeg",
     "source_path": "~/Pictures/French Bulldogs/output_image1723911843162.jpeg",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-09-11",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18106245641521547"
+      },
+      {
+        "date": "2026-09-23",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "posted",
+        "url": "https://www.instagram.com/p/Ddoew3YjQNY/"
+      }
+    ]
   },
   "palmer-dining-chair.jpg": {
     "source_filename": "IMG_1048.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_1048.heic",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-08-31",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18622119685006317"
+      }
+    ]
   },
   "palmer-fireplace-ottoman.jpg": {
     "source_filename": "IMG_0996.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_0996.heic",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-08-24",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18127500943745180"
+      }
+    ]
   },
   "palmer-gate-city-sign.jpg": {
     "source_filename": "IMG_2588.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_2588.heic",
     "finder_color_tag": "Red",
     "venue": "Gate City Brewing Company",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "palmer-harness-look-up.jpg": {
     "source_filename": "IMG_4015.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_4015.heic",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "palmer-holiday-harness-patio.jpg": {
     "source_filename": "IMG_4461.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_4461.heic",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": "Venue unknown (GPS: Decatur/Atlanta area)."
+    "note": "Venue unknown (GPS: Decatur/Atlanta area).",
+    "posts": []
   },
   "palmer-horned-owl-bar.jpg": {
     "source_filename": "IMG_2601.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_2601.heic",
     "finder_color_tag": "Red",
     "venue": "Horned Owl Brewing",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "palmer-horned-owl-mug.jpg": {
     "source_filename": "IMG_2715.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_2715.heic",
     "finder_color_tag": "Red",
     "venue": "Horned Owl Brewing",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "palmer-mid-thought.jpg": {
     "source_filename": "1466313368978568522.jpeg",
     "source_path": "~/Pictures/French Bulldogs/1466313368978568522.jpeg",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-07-27",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18192438643361660"
+      }
+    ]
   },
   "palmer-patio-alert.jpg": {
     "source_filename": "IMG_3642.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_3642.heic",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-08-03",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18155798989499778"
+      }
+    ]
   },
   "palmer-pink-harness-tongue.jpg": {
     "source_filename": "IMG_0371.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_0371.heic",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": "GPS: Hendersonville, NC area."
+    "note": "GPS: Hendersonville, NC area.",
+    "posts": []
   },
   "palmer-pink-pompom-hat.jpg": {
     "source_filename": "IMG_7476.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_7476.heic",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "palmer-porch-breeze.jpg": {
     "source_filename": "IMG_6066.HEIC",
     "source_path": "~/Pictures/French Bulldogs/IMG_6066.HEIC",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "palmer-porch-lick.jpg": {
     "source_filename": "IMG_6064.HEIC",
     "source_path": "~/Pictures/French Bulldogs/IMG_6064.HEIC",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "palmer-porch-stool.jpg": {
     "source_filename": "IMG_6063.HEIC",
     "source_path": "~/Pictures/French Bulldogs/IMG_6063.HEIC",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-09-30",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "posted",
+        "url": "https://www.instagram.com/p/Dd6gb-zDYEB/"
+      }
+    ]
   },
   "palmer-puzzle-chair.jpg": {
     "source_filename": "IMG_5996.HEIC",
     "source_path": "~/Pictures/French Bulldogs/IMG_5996.HEIC",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "palmer-puzzle-night.jpg": {
     "source_filename": "IMG_5997.HEIC",
     "source_path": "~/Pictures/French Bulldogs/IMG_5997.HEIC",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-10-21",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "posted",
+        "url": "https://www.instagram.com/p/Dewk82oiGLS/"
+      }
+    ]
   },
   "palmer-red-harness-patio.jpg": {
     "source_filename": "7095969022429225022.jpeg",
     "source_path": "~/Pictures/French Bulldogs/7095969022429225022.jpeg",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-09-02",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18136950445621436"
+      }
+    ]
   },
   "palmer-reformation-kegs.jpg": {
     "source_filename": "IMG_2597.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_2597.heic",
     "finder_color_tag": "Red",
     "venue": "Reformation Brewery",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "palmer-rosie-beanbag.jpg": {
     "source_filename": "IMG_4741.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_4741.heic",
     "finder_color_tag": "Yellow",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "palmer-rosie-blanket-cuddle.jpg": {
     "source_filename": "IMG_4921.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_4921.heic",
     "finder_color_tag": "Yellow",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "palmer-rosie-fireplace-couch.jpg": {
     "source_filename": "IMG_2736.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_2736.heic",
     "finder_color_tag": "Yellow",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "palmer-rosie-home-gym.jpg": {
     "source_filename": "IMG_4877.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_4877.heic",
     "finder_color_tag": "Yellow",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "palmer-rosie-lazy-guy-deck.jpg": {
     "source_filename": "IMG_2861.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_2861.heic",
     "finder_color_tag": "Yellow",
     "venue": "Lazy Guy Distillery",
-    "note": "Venue from GPS."
+    "note": "Venue from GPS.",
+    "posts": []
   },
   "palmer-rosie-lindsay-cuddle.jpg": {
     "source_filename": "IMG_5020.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_5020.heic",
     "finder_color_tag": "Yellow",
     "venue": "",
-    "note": "Good Lindsay BTS candidate."
+    "note": "Good Lindsay BTS candidate.",
+    "posts": []
   },
   "palmer-rosie-matching-pajamas.jpg": {
     "source_filename": "IMG_4180.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_4180.heic",
     "finder_color_tag": "Yellow",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "palmer-rosie-side-by-side.jpg": {
     "source_filename": "IMG_3158.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_3158.heic",
     "finder_color_tag": "Yellow",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "palmer-rosie-twin-chairs.jpg": {
     "source_filename": "14A85C08-09F1-4FEE-86B7-E2E8DCB1AD1C.jpeg",
     "source_path": "~/Pictures/French Bulldogs/14A85C08-09F1-4FEE-86B7-E2E8DCB1AD1C.jpeg",
     "finder_color_tag": "Yellow",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "palmer-rosie-woofmas-cookie.jpg": {
     "source_filename": "IMG_4421.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_4421.heic",
     "finder_color_tag": "Yellow",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "palmer-rosie-yard-cot.jpg": {
     "source_filename": "9315.jpeg",
     "source_path": "~/Pictures/French Bulldogs/9315.jpeg",
     "finder_color_tag": "Yellow",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "palmer-shepherds-men-growler.jpg": {
     "source_filename": "0B3D5D0F-D4E0-4E0A-8A5D-DCE3014C6F17_1_105_c.jpeg",
     "source_path": "~/Pictures/French Bulldogs/0B3D5D0F-D4E0-4E0A-8A5D-DCE3014C6F17_1_105_c.jpeg",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": "Likely Buck Bald Brewing (GPS: Murphy, NC); confirm before naming the venue."
+    "note": "Likely Buck Bald Brewing (GPS: Murphy, NC); confirm before naming the venue.",
+    "posts": []
   },
   "palmer-sherpa-blanket.jpg": {
     "source_filename": "IMG_0990.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_0990.heic",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-08-17",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18096881414527815"
+      }
+    ]
   },
   "palmer-stone-wall.jpg": {
     "source_filename": "IMG_2159.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_2159.heic",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "palmer-sunbeam-plant.jpg": {
     "source_filename": "IMG_1319.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_1319.heic",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-09-07",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "17983845968878868"
+      }
+    ]
   },
   "palmer-sunny-deck.jpg": {
     "source_filename": "IMG_9262.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_9262.heic",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "palmer-tufted-chair.jpg": {
     "source_filename": "IMG_3838.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_3838.heic",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "palmer-valentine-card.jpg": {
     "source_filename": "IMG_4727.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_4727.heic",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "pink-drink.jpg": {
     "source_filename": "IMG_8409.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_8409.heic",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "porch-table.jpg": {
     "source_filename": "IMG_4286.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_4286.heic",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "portrait-leash.jpg": {
     "source_filename": "IMG_4008.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_4008.heic",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "reformation-brewery-kegs.jpg": {
     "source_filename": "IMG_2598.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_2598.heic",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "rosie-bed-stare.jpg": {
     "source_filename": "IMG_5166.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_5166.heic",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "rosie-bedtime-peek.jpg": {
     "source_filename": "IMG_5715.HEIC",
     "source_path": "~/Pictures/French Bulldogs/IMG_5715.HEIC",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "rosie-brewery-chair.jpg": {
     "source_filename": "IMG_4006.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_4006.heic",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": "Venue unknown (GPS: Cumming, GA brewery)."
+    "note": "Venue unknown (GPS: Cumming, GA brewery).",
+    "posts": []
+  },
+  "rosie-chair-crazy.jpg": {
+    "source_filename": "",
+    "source_path": "",
+    "finder_color_tag": "",
+    "venue": "",
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-08-14",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18612308428044271"
+      },
+      {
+        "date": "2026-10-23",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "posted",
+        "url": "https://www.instagram.com/p/De1uhXjiO0A/"
+      }
+    ]
   },
   "rosie-christmas-blanket.jpg": {
     "source_filename": "IMG_4400.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_4400.heic",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "rosie-closeup-look-up.jpg": {
     "source_filename": "IMG_2692.jpeg",
     "source_path": "~/Pictures/French Bulldogs/IMG_2692.jpeg",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "rosie-deck-nap.jpg": {
     "source_filename": "IMG_5986.HEIC",
     "source_path": "~/Pictures/French Bulldogs/IMG_5986.HEIC",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "rosie-deck-side-table.jpg": {
     "source_filename": "IMG_5985.HEIC",
     "source_path": "~/Pictures/French Bulldogs/IMG_5985.HEIC",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-10-30",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "scheduled"
+      }
+    ]
   },
   "rosie-donut-pillow.jpg": {
     "source_filename": "IMG_2998.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_2998.heic",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "rosie-floor-sit.jpg": {
     "source_filename": "IMG_5807.HEIC",
     "source_path": "~/Pictures/French Bulldogs/IMG_5807.HEIC",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "rosie-full-stare.jpg": {
     "source_filename": "IMG_4016.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_4016.heic",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-07-31",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18435036298124340"
+      }
+    ]
   },
   "rosie-grass-tongue.jpg": {
     "source_filename": "5371356803833050004.jpeg",
     "source_path": "~/Pictures/French Bulldogs/5371356803833050004.jpeg",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "rosie-gym-floor.jpg": {
     "source_filename": "IMG_5625.HEIC",
     "source_path": "~/Pictures/French Bulldogs/IMG_5625.HEIC",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-10-02",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "posted",
+        "url": "https://www.instagram.com/p/Dd_p3HFjZjv/"
+      }
+    ]
   },
   "rosie-lakeside.jpg": {
     "source_filename": "IMG_3806.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_3806.heic",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": "GPS: near Knoxville, TN."
+    "note": "GPS: near Knoxville, TN.",
+    "posts": []
   },
   "rosie-lazy-guy-stool.jpg": {
     "source_filename": "4F416CE5-5BCB-4FFA-AD5F-3DCC3DC5F6D3_4_5005_c.jpeg",
     "source_path": "~/Pictures/French Bulldogs/4F416CE5-5BCB-4FFA-AD5F-3DCC3DC5F6D3_4_5005_c.jpeg",
     "finder_color_tag": "Orange",
     "venue": "Lazy Guy Distillery",
-    "note": "Venue matched to the stained-glass porch on the Lazy Guy page."
+    "note": "Venue matched to the stained-glass porch on the Lazy Guy page.",
+    "posts": []
   },
   "rosie-lumber-aisle.jpg": {
     "source_filename": "IMG_3862.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_3862.heic",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "rosie-party-hat.jpg": {
     "source_filename": "IMG_5318.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_5318.heic",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-07-17",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "17959745085159324"
+      },
+      {
+        "date": "2026-10-16",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "posted",
+        "url": "https://www.instagram.com/p/Dejs61AiCse/"
+      }
+    ]
   },
   "rosie-patio-leash.jpg": {
     "source_filename": "IMG_2781.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_2781.heic",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-08-21",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18066096860744189"
+      }
+    ]
   },
   "rosie-pink-toy.jpg": {
     "source_filename": "8615464666873070144.heif",
     "source_path": "~/Pictures/French Bulldogs/8615464666873070144.heif",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "rosie-porch-lounge.jpg": {
     "source_filename": "7809B07E-D778-4F47-8AF8-08E993F11A8B_1_105_c.jpeg",
     "source_path": "~/Pictures/French Bulldogs/7809B07E-D778-4F47-8AF8-08E993F11A8B_1_105_c.jpeg",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "rosie-purple-pompom-hat.jpg": {
     "source_filename": "IMG_4079.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_4079.heic",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "rosie-sleepy-tongue.jpg": {
     "source_filename": "IMG_5835.HEIC",
     "source_path": "~/Pictures/French Bulldogs/IMG_5835.HEIC",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "rosie-soccer-ball.jpg": {
     "source_filename": "1329166302004759370.heif",
     "source_path": "~/Pictures/French Bulldogs/1329166302004759370.heif",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "rosie-staircase-lounge.jpg": {
     "source_filename": "IMG_5306.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_5306.heic",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-09-25",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "posted",
+        "url": "https://www.instagram.com/p/DdtoX3sjbdm/"
+      }
+    ]
   },
   "rosie-tongue-closeup.jpg": {
     "source_filename": "IMG_2586.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_2586.heic",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-09-04",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "17874512316562760"
+      }
+    ]
   },
   "rosie-tongue-out.jpg": {
     "source_filename": "IMG_5470.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_5470.heic",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "rosie-treat-alert.jpg": {
     "source_filename": "IMG_4010.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_4010.heic",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-07-24",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18096446945211407"
+      }
+    ]
   },
   "rosie-under-her-portrait.jpg": {
     "source_filename": "IMG_4446.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_4446.heic",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "rosie-unicorn-hat.jpg": {
     "source_filename": "IMG_4442.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_4442.heic",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": "A man is in the frame."
+    "note": "A man is in the frame.",
+    "posts": []
   },
   "rosie-wall-grin.jpg": {
     "source_filename": "IMG_2584.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_2584.heic",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-10-09",
+        "platform": "instagram",
+        "via": "metricool",
+        "status": "posted",
+        "url": "https://www.instagram.com/p/DeRrV52jS3T/"
+      }
+    ]
   },
   "rosie-wall-standing.jpg": {
     "source_filename": "IMG_2590.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_2590.heic",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "rosie-yard-ball.jpg": {
     "source_filename": "2943505593422432056.jpeg",
     "source_path": "~/Pictures/French Bulldogs/2943505593422432056.jpeg",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "stool-drink.jpg": {
     "source_filename": "IMG_5323.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_5323.heic",
     "finder_color_tag": "Orange",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
   },
   "sunday-planning-meeting.jpg": {
     "source_filename": "IMG_7822.jpeg",
     "source_path": "~/Pictures/French Bulldogs/IMG_7822.jpeg",
     "finder_color_tag": "Yellow",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": [
+      {
+        "date": "2026-08-26",
+        "platform": "instagram",
+        "via": "post.js",
+        "status": "posted",
+        "instagram_media_id": "18105945020272596"
+      }
+    ]
   },
   "table-drink.jpg": {
     "source_filename": "IMG_4736.heic",
     "source_path": "~/Pictures/French Bulldogs/IMG_4736.heic",
     "finder_color_tag": "Red",
     "venue": "",
-    "note": ""
+    "note": "",
+    "posts": []
+  },
+  "yard-ball-chase.jpg": {
+    "source_filename": "",
+    "source_path": "",
+    "finder_color_tag": "",
+    "venue": "",
+    "note": "",
+    "posts": [],
+    "same_as": "outdoor-closeup.jpg"
   }
 }
