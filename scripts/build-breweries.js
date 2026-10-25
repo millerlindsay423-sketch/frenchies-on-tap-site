@@ -155,6 +155,7 @@ ${reviewParagraphs}
   </div>
 </footer>
 
+<script src="/scripts/promo.js" defer></script>
 </body>
 </html>
 `;
