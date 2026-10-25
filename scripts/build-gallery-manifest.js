@@ -43,22 +43,37 @@ function dogFor(alt, file) {
 
 const venueRe = /((?:[A-Z][\w'.]*\s)+(?:Brewery|Brewing|Distillery|Brewpub|Taproom))/;
 
-const files = fs.readdirSync(GALLERY_DIR).filter((f) => /\.(jpe?g|png|webp)$/i.test(f)).sort();
+// Where each gallery photo came from (original file, Finder tag, venue override, notes).
+const SOURCES = path.join(ROOT, 'data', 'gallery-sources.json');
+const sources = fs.existsSync(SOURCES) ? JSON.parse(fs.readFileSync(SOURCES, 'utf8')) : {};
+const TAG_DOG = { Red: 'Palmer', Orange: 'Rosie', Yellow: 'Both' };
+
+// Only photos with a tile on gallery.html; others in the folder (e.g. the home page's
+// Shepherd's Men photo) aren't part of the gallery.
+const files = fs.readdirSync(GALLERY_DIR).filter((f) => /\.(jpe?g|png|webp)$/i.test(f) && f in altByFile).sort();
 const manifest = files.map((f) => {
   const full = path.join(GALLERY_DIR, f);
   const alt = altByFile[f];
   if (alt === undefined) console.warn(`No gallery.html alt text for ${f}`);
   const { w, h } = dims(full);
-  const venue = ((alt || '').match(venueRe) || [, ''])[1].replace(/^(The|At)\s+/, '');
+  const src = sources[f] || {};
+  const venue = src.venue || ((alt || '').match(venueRe) || [, ''])[1].replace(/^(The|At)\s+/, '');
+  const ratio = +(w / h).toFixed(3);
+  const notes = [src.note || (src.source_filename ? '' : 'Original not found in ~/Pictures/French Bulldogs.')];
+  if (ratio < 0.75 || ratio > 1.91) notes.push('Aspect ratio outside 0.75–1.91: Stories only, not feed.');
   return {
     public_url: BASE_URL + f,
     gallery_filename: f,
-    dog: dogFor(alt || '', full),
+    source_filename: src.source_filename || '',
+    source_path: src.source_path || '',
+    finder_color_tag: src.finder_color_tag || '',
+    dog: TAG_DOG[src.finder_color_tag] || dogFor(alt || '', full),
     venue,
     width: w,
     height: h,
-    aspect_ratio: +(w / h).toFixed(3),
+    aspect_ratio: ratio,
     alt_text: alt || '',
+    note: notes.filter(Boolean).join(' '),
   };
 });
 
