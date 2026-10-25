@@ -447,7 +447,10 @@ section{padding:72px 0;}
   display:flex;align-items:center;justify-content:center;font-family:Georgia,serif;font-weight:700;font-size:1.8rem;color:#fff;
 }
 .wtm-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
-.wtm-card img{width:100%;aspect-ratio:4/5;object-fit:cover;border:3px solid var(--p-gold);border-radius:12px;margin-bottom:14px;}
+.wtm-card img{width:100%;aspect-ratio:4/5;object-fit:cover;border:3px solid var(--p-gold);border-radius:12px;display:block;}
+.wtm-card a.wtm-photo{display:block;text-decoration:none;cursor:zoom-in;}
+.wtm-card a.wtm-photo:hover img{border-color:var(--p-cream);}
+.wtm-enlarge{font-size:0.72rem;color:rgba(240,229,203,0.6);text-transform:uppercase;letter-spacing:1px;margin:6px 0 10px;}
 .wtm-card h3{font-family:Georgia,serif;text-transform:uppercase;font-size:1.15rem;color:var(--p-cream);letter-spacing:0.3px;}
 .wtm-where{color:var(--p-gold);font-weight:700;font-size:0.8rem;letter-spacing:1px;text-transform:uppercase;margin:2px 0 8px;}
 .wtm-card p{font-size:0.88rem;color:rgba(255,255,255,0.8);margin-bottom:8px;}
